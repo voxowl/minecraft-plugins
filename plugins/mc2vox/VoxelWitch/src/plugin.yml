@@ -2,6 +2,8 @@ main: com.particubes.witch.Witch
 version: 1.0
 author: Particubes
 name: VoxelWitch
+softdepend:
+  - WorldEdit
 commands:
   voxelwitch:
     aliases: [vwitch,vw]
