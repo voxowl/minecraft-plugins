@@ -1,0 +1,8 @@
+main: com.particubes.witch.Witch
+version: 1.0
+author: Particubes
+name: VoxelWitch
+commands:
+  voxelwitch:
+    aliases: [vwitch,vw]
+    description: Voxel Witch main command
