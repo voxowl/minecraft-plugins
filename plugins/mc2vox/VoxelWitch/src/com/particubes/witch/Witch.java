@@ -10,6 +10,7 @@ public class Witch extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
+        this.getCommand("voxelwitch").setExecutor(new commandVoxelWitch());
         if (getServer().getPluginManager().getPlugin("WorldEdit") != null) {
             getLogger().info("WorldEdit found.");
             WorldEditAPI = true;
