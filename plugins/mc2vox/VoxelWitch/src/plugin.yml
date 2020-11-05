@@ -4,6 +4,7 @@ author: Particubes
 name: VoxelWitch
 softdepend:
   - WorldEdit
+api-version: 1.13
 commands:
   voxelwitch:
     aliases: [vwitch,vw]

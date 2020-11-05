@@ -9,6 +9,7 @@ import ovh.nemesis.cauldron.Model;
 import ovh.nemesis.cauldron.Palette;
 import ovh.nemesis.cauldron.exportToVox;
 
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -25,25 +26,45 @@ public class commandVoxelWitch implements CommandExecutor {
                 sender.sendMessage("§cYou don't have the permission §4voxelwitch.cmd§c to do that !");
                 return true;
             }
-            if (args.length == 0) {
-                sender.sendMessage("§3Help command :");
-                return true;
-            }
-            if (args[0].equalsIgnoreCase("export")) {
-                Model model = new Model();
-                model.setVoxels(worldEdit.getRegionToVoxel((Player) sender));
+            if (args.length > 0) {
+                if (args[0].equalsIgnoreCase("export")) {
+                    if (!sender.hasPermission("voxelwitch.export")) { // Check if sender has the permission to access command
+                        sender.sendMessage("§cYou don't have the permission §4voxelwitch.export§c to do that !");
+                        return true;
+                    }
+                    if (args.length < 2) {
+                        sender.sendMessage("§cUsage : /" + label + " export <filename>");
+                        return true;
+                    }
+                    Model model = new Model();
+                    model.setVoxels(worldEdit.getRegionToVoxel((Player) sender));
 
-                Palette palette = new Palette();
-                palette.setColor(10, new Color(255, 255, 255));
+                    byte[] bytes = exportToVox.exportToByteArray(model, JSONColors.getPalette(), null);
 
-                byte[] bytes = exportToVox.exportToByteArray(model, palette, null);
+                    File file = new File(Witch.instance.getDataFolder().getPath() + "/voxs/" + args[1] + ".vox");
 
-                try (FileOutputStream fos = new FileOutputStream(Witch.instance.getDataFolder().getPath() + "/test.vox")) {
-                    fos.write(bytes);
-                } catch (IOException e) {
-                    e.printStackTrace();
+                    if (!file.exists()) {
+                        try {
+                            file.createNewFile();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    }
+
+                    try (FileOutputStream fos = new FileOutputStream(file)) {
+                        fos.write(bytes);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
+                    sender.sendMessage("§dSuccessfully saved into §5" + args[1] + ".vox");
+                    return true;
                 }
             }
+            sender.sendMessage("§8[§dVoxel§5Witch§8] §dHelp command :");
+            sender.sendMessage("§8- §d/voxelwitch export <filename> §7Export selection to §dfilename§7.vox file");
+            sender.sendMessage("§8- §d/voxelwitch upload <filename> §7Upload selection to §dfilename§7.vox file and get an url link [WIP]");
+            return true;
         }
         return false;
     }

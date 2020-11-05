@@ -8,8 +8,12 @@ import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
+import org.json.JSONObject;
+import org.json.simple.parser.JSONParser;
 import ovh.nemesis.cauldron.Voxel;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,20 +30,31 @@ public class worldEdit {
         }
         List<Voxel> voxels = new ArrayList<>();
         World world = Witch.instance.getServer().getWorld(region.getWorld().getName());
-        for (int x = region.getMinimumPoint().getBlockX(); x < region.getMaximumPoint().getBlockX(); x++) {
-            if ((x - region.getMinimumPoint().getBlockX()) > 255) continue;
-            for (int y = region.getMinimumPoint().getBlockY(); y < region.getMaximumPoint().getBlockY(); y++) {
-                if ((y - region.getMinimumPoint().getBlockY()) > 255) continue;
-                for (int z = region.getMinimumPoint().getBlockZ(); z < region.getMaximumPoint().getBlockZ(); z++) {
-                    if ((z - region.getMinimumPoint().getBlockZ()) > 255) continue;
+        JSONObject json = JSONColors.getJSON();
+        for (int x = region.getMinimumPoint().getBlockX(); x <= Math.min(region.getMaximumPoint().getBlockX(), region.getMinimumPoint().getBlockX() + 255); x++) {
+            for (int y = region.getMinimumPoint().getBlockY(); y <= Math.min(region.getMaximumPoint().getBlockY(), region.getMinimumPoint().getBlockY() + 255); y++) {
+                for (int z = region.getMinimumPoint().getBlockZ(); z <= Math.min(region.getMaximumPoint().getBlockZ(), region.getMinimumPoint().getBlockZ() + 255); z++) {
                     Block block = world.getBlockAt(x, y, z);
-                    if (block.getType() != Material.AIR) {
-                        Voxel voxel = new Voxel((x - region.getMinimumPoint().getBlockX()), (z - region.getMinimumPoint().getBlockZ()), (y - region.getMinimumPoint().getBlockY()), 10);
-                        voxels.add(voxel);
+                    if (!json.getJSONObject("ignored").keySet().contains(block.getType().name().toLowerCase()) && !json.getJSONObject("active").keySet().contains(block.getType().name().toLowerCase())) {
+                        continue;
                     }
+                    if (json.getJSONObject("ignored").keySet().contains(block.getType().name().toLowerCase())) {
+                        if (json.getJSONObject("ignored").getBoolean(block.getType().name().toLowerCase())) {
+                            continue;
+                        }
+                    }
+                    String color = json.getJSONObject("active").getString(block.getType().name().toLowerCase());
+                    int index = 255;
+                    if (json.getJSONObject("colors").keySet().contains(color)) {
+                        index = json.getJSONObject("colors").getInt(color);
+                    }
+                    Voxel voxel = new Voxel((z - region.getMinimumPoint().getBlockZ()), (x - region.getMinimumPoint().getBlockX()), (y - region.getMinimumPoint().getBlockY()), index);
+                    voxels.add(voxel);
                 }
             }
         }
+        System.out.println(voxels.size() + " voxels processed.");
+        player.sendMessage("§d" + voxels.size() + " voxels processed.");
         return voxels;
     }
 }
