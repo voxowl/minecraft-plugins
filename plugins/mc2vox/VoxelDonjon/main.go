@@ -53,12 +53,25 @@ func uploadFile(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Success\n")
 }
 
-func download() {
+func download(w http.ResponseWriter, r *http.Request) {
+	if _, err := os.Stat("voxs\\" + r.URL.Path[4:] + ".vox"); os.IsNotExist(err) {
+		fmt.Fprintf(w, "E3")
+		fmt.Println("File " + r.URL.Path[4:] + ".vox" + " not found")
+		return
+	} else if err != nil {
+		fmt.Fprintf(w, "E4")
+		fmt.Println(err)
+		return
+	}
 
+	w.Header().Set("Content-Disposition", "attachment; filename="+r.URL.Path[4:]+".vox")
+	w.Header().Set("Content-Type", "application/octet-stream")
+	http.ServeFile(w, r, "voxs\\"+r.URL.Path[4:]+".vox")
 }
 
 func setupRoutes() {
-	http.HandleFunc("/upload", uploadFile)
+	http.HandleFunc("/upload/", uploadFile)
+	http.HandleFunc("/dl/", download)
 	http.ListenAndServe(":8080", nil)
 }
 
