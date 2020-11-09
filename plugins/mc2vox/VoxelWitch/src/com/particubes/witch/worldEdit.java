@@ -26,14 +26,18 @@ public class worldEdit {
             region = localSession.getSelection(localSession.getSelectionWorld());
         } catch (IncompleteRegionException e) {
             e.printStackTrace();
+            player.sendMessage("§cPlease make a region selection first.");
             return null;
         }
         List<Voxel> voxels = new ArrayList<>();
         World world = Witch.instance.getServer().getWorld(region.getWorld().getName());
         JSONObject json = JSONColors.getJSON();
-        for (int x = region.getMinimumPoint().getBlockX(); x <= Math.min(region.getMaximumPoint().getBlockX(), region.getMinimumPoint().getBlockX() + 255); x++) {
-            for (int y = region.getMinimumPoint().getBlockY(); y <= Math.min(region.getMaximumPoint().getBlockY(), region.getMinimumPoint().getBlockY() + 255); y++) {
-                for (int z = region.getMinimumPoint().getBlockZ(); z <= Math.min(region.getMaximumPoint().getBlockZ(), region.getMinimumPoint().getBlockZ() + 255); z++) {
+        if ((region.getMaximumPoint().getBlockX() - region.getMinimumPoint().getBlockX()) > 125 || (region.getMaximumPoint().getBlockY() - region.getMinimumPoint().getBlockY()) > 125 || (region.getMaximumPoint().getBlockZ() - region.getMinimumPoint().getBlockZ()) > 125) {
+            player.sendMessage("§cWarning ! §dRegion side exceeds 126 blocks, the region will be truncated in vox file.");
+        }
+        for (int x = region.getMinimumPoint().getBlockX(); x <= Math.min(region.getMaximumPoint().getBlockX(), region.getMinimumPoint().getBlockX() + 125); x++) {
+            for (int y = region.getMinimumPoint().getBlockY(); y <= Math.min(region.getMaximumPoint().getBlockY(), region.getMinimumPoint().getBlockY() + 125); y++) {
+                for (int z = region.getMinimumPoint().getBlockZ(); z <= Math.min(region.getMaximumPoint().getBlockZ(), region.getMinimumPoint().getBlockZ() + 125); z++) {
                     Block block = world.getBlockAt(x, y, z);
                     if (!json.getJSONObject("ignored").keySet().contains(block.getType().name().toLowerCase()) && !json.getJSONObject("active").keySet().contains(block.getType().name().toLowerCase())) {
                         continue;

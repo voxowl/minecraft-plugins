@@ -4,14 +4,12 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import ovh.nemesis.cauldron.Color;
-import ovh.nemesis.cauldron.Model;
-import ovh.nemesis.cauldron.Palette;
-import ovh.nemesis.cauldron.exportToVox;
+import ovh.nemesis.cauldron.*;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.List;
 
 public class commandVoxelWitch implements CommandExecutor {
 
@@ -36,8 +34,18 @@ public class commandVoxelWitch implements CommandExecutor {
                         sender.sendMessage("§cUsage : /" + label + " export <filename>");
                         return true;
                     }
+                    if (!args[1].matches("[a-zA-Z0-9_]")) {
+                        sender.sendMessage("§cFilename must be alphanumeric (a-Z, 0-9, underscores)");
+                        return true;
+                    }
+
                     Model model = new Model();
-                    model.setVoxels(worldEdit.getRegionToVoxel((Player) sender));
+                    
+                    List<Voxel> voxels = worldEdit.getRegionToVoxel((Player) sender);
+                    if (voxels == null) {
+                        return true;
+                    }
+                    model.setVoxels(voxels);
 
                     byte[] bytes = exportToVox.exportToByteArray(model, JSONColors.getPalette(), null);
 
