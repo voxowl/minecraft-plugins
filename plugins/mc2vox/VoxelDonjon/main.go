@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
+	"minecraft-plugins/plugins/mc2vox/VoxelDonjon/mysql"
 	"net/http"
 	"os"
 	"time"
@@ -10,7 +11,7 @@ import (
 
 func uploadFile(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("File Upload Endpoint Hit")
-	file, handler, err := r.FormFile("myFile")
+	file, handler, err := r.FormFile("file")
 	if err != nil {
 		fmt.Println("Error Retrieving the File")
 		fmt.Println(err)
@@ -33,15 +34,17 @@ func uploadFile(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 	}
 
-	bs := []byte("VOX –")
+	bs := []byte("VOX ")
 
-	for i := 0; i < 5; i++ {
+	for i := 0; i < 4; i++ {
 		if bs[i] != fileBytes[i] {
 			fmt.Println("Bad vox file")
 			fmt.Fprintf(w, "E2")
 			return
 		}
 	}
+
+	mysql.AddFile(c, r.URL.Path[8:])
 
 	f, err := os.Create("voxs\\" + c + ".vox")
 	if err != nil {
@@ -64,7 +67,7 @@ func download(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	w.Header().Set("Content-Disposition", "attachment; filename="+r.URL.Path[4:]+".vox")
+	w.Header().Set("Content-Disposition", "attachment; filename="+mysql.GetFile(r.URL.Path[4:])+".vox")
 	w.Header().Set("Content-Type", "application/octet-stream")
 	http.ServeFile(w, r, "voxs\\"+r.URL.Path[4:]+".vox")
 }
