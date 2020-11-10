@@ -53,16 +53,16 @@ func uploadFile(w http.ResponseWriter, r *http.Request) {
 
 	f.Write(fileBytes)
 
-	fmt.Fprintf(w, "Success\n")
+	fmt.Fprintf(w, "Success\n"+c)
 }
 
 func download(w http.ResponseWriter, r *http.Request) {
 	if _, err := os.Stat("voxs\\" + r.URL.Path[4:] + ".vox"); os.IsNotExist(err) {
-		fmt.Fprintf(w, "E3")
+		fmt.Fprintf(w, "File not found or expired")
 		fmt.Println("File " + r.URL.Path[4:] + ".vox" + " not found")
 		return
 	} else if err != nil {
-		fmt.Fprintf(w, "E4")
+		fmt.Fprintf(w, "Unknown error")
 		fmt.Println(err)
 		return
 	}
