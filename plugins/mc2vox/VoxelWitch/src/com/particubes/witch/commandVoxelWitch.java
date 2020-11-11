@@ -38,6 +38,10 @@ public class commandVoxelWitch implements CommandExecutor {
                         sender.sendMessage("§cFilename must be alphanumeric (a-Z, 0-9, underscores)");
                         return true;
                     }
+                    if (args[1].equalsIgnoreCase("temp")) {
+                        sender.sendMessage("§cThe filename §4temp §cis not allowed.");
+                        return true;
+                    }
 
                     Model model = new Model();
                     
