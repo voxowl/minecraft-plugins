@@ -22,7 +22,7 @@ func uploadFile(w http.ResponseWriter, r *http.Request) {
 	fmt.Printf("File Size: %+v\n", handler.Size)
 	if handler.Size > 8388608 {
 		fmt.Println("File too big")
-		fmt.Fprintf(w, "E1")
+		fmt.Fprintf(w, "@E1")
 		return
 	}
 	fmt.Printf("MIME Header: %+v\n", handler.Header)
@@ -39,7 +39,7 @@ func uploadFile(w http.ResponseWriter, r *http.Request) {
 	for i := 0; i < 4; i++ {
 		if bs[i] != fileBytes[i] {
 			fmt.Println("Bad vox file")
-			fmt.Fprintf(w, "E2")
+			fmt.Fprintf(w, "@E2")
 			return
 		}
 	}
