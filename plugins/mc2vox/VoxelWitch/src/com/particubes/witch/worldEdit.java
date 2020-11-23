@@ -8,6 +8,7 @@ import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import ovh.nemesis.cauldron.Voxel;
@@ -47,10 +48,11 @@ public class worldEdit {
                             continue;
                         }
                     }
-                    String color = json.getJSONObject("active").getString(block.getType().name().toLowerCase());
                     int index = 255;
-                    if (json.getJSONObject("colors").keySet().contains(color)) {
-                        index = json.getJSONObject("colors").getInt(color);
+                    try {
+                        index = json.getJSONObject("active").getJSONObject(block.getType().name().toLowerCase()).getInt("index");
+                    } catch (JSONException ignored) {
+
                     }
                     Voxel voxel = new Voxel((z - region.getMinimumPoint().getBlockZ()), (x - region.getMinimumPoint().getBlockX()), (y - region.getMinimumPoint().getBlockY()), index);
                     voxels.add(voxel);
