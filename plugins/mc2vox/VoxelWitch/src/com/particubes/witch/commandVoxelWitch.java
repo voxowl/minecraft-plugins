@@ -51,7 +51,7 @@ public class commandVoxelWitch implements CommandExecutor {
                     }
                     model.setVoxels(voxels);
 
-                    byte[] bytes = exportToVox.exportToByteArray(model, JSONColors.getPalette(), null);
+                    byte[] bytes = exportToVox.exportToByteArray(model, JSONColors.getPalette(), JSONColors.getMaterials());
 
                     String name = args[0].equalsIgnoreCase("export") ? args[1] : "temp";
 
