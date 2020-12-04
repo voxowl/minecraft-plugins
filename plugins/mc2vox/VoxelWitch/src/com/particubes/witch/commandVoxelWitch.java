@@ -31,50 +31,50 @@ public class commandVoxelWitch implements CommandExecutor {
                         return true;
                     }
                     if (args.length < 2) {
-                        sender.sendMessage("§cUsage : /" + label + " " + args[0].toLowerCase() + " <filename>");
+                        sender.sendMessage("§cUsage : /" + label + " " + args[0].toLowerCase() + " <filename>"); // Incomplete command message
                         return true;
                     }
-                    if (!args[1].matches("[a-zA-Z0-9_]*")) {
+                    if (!args[1].matches("[a-zA-Z0-9_]*")) { // Alphanumeric_ filename check
                         sender.sendMessage("§cFilename must be alphanumeric (a-Z, 0-9, underscores)");
                         return true;
                     }
-                    if (args[1].equalsIgnoreCase("temp")) {
+                    if (args[1].equalsIgnoreCase("temp")) { // Check if filename is "temp" to protect upload command
                         sender.sendMessage("§cThe filename §4temp §cis not allowed.");
                         return true;
                     }
 
-                    Model model = new Model();
+                    Model model = new Model(); // New Voxel model
                     
-                    List<Voxel> voxels = worldEdit.getRegionToVoxel((Player) sender);
+                    List<Voxel> voxels = worldEdit.getRegionToVoxel((Player) sender); // Convert worldedit region to voxel list
                     if (voxels == null) {
                         return true;
                     }
-                    model.setVoxels(voxels);
+                    model.setVoxels(voxels); // Add voxel list to voxel model
 
-                    byte[] bytes = exportToVox.exportToByteArray(model, JSONColors.getPalette(), JSONColors.getMaterials());
+                    byte[] bytes = exportToVox.exportToByteArray(model, JSONColors.getPalette(), JSONColors.getMaterials()); // Convert simple model, with color palette and materials
 
-                    String name = args[0].equalsIgnoreCase("export") ? args[1] : "temp";
+                    String name = args[0].equalsIgnoreCase("export") ? args[1] : "temp"; // If it's upload command, use "temp" as filename.
 
-                    File file = new File(Witch.instance.getDataFolder().getPath() + "/voxs/" + name + ".vox");
+                    File file = new File(Witch.instance.getDataFolder().getPath() + "/voxs/" + name + ".vox"); // Create new file with filename
 
                     if (!file.exists()) {
                         try {
-                            file.createNewFile();
+                            boolean ignored = file.createNewFile(); // Create file if not exist
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
                     }
 
                     try (FileOutputStream fos = new FileOutputStream(file)) {
-                        fos.write(bytes);
+                        fos.write(bytes); // Write bytes to file
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
 
                     if (args[0].equalsIgnoreCase("export")) {
-                        sender.sendMessage("§dSuccessfully saved into §5" + args[1] + ".vox");
+                        sender.sendMessage("§dSuccessfully saved into §5" + args[1] + ".vox"); // If it's export command, send confirmation message
                     } else {
-                        String result = httpRequest.uploadVox(new File(Witch.instance.getDataFolder().getPath() + "/voxs/temp.vox"), args[1]);
+                        String result = httpRequest.uploadVox(new File(Witch.instance.getDataFolder().getPath() + "/voxs/temp.vox"), args[1]); //Try to upload to VoxelDonjon
                         if (result.equalsIgnoreCase("@UE")) {
                             sender.sendMessage("§cAn unknown error has occured");
                         } else if (result.equalsIgnoreCase("@E1")) {
@@ -82,13 +82,13 @@ public class commandVoxelWitch implements CommandExecutor {
                         } else if (result.equalsIgnoreCase("@E2")) {
                             sender.sendMessage("§cThe file isn't a vox file !");
                         } else {
-                            sender.sendMessage("§dYou can download your file at : §5https://donjon.nemesis.ovh/dl/" + result + " §d!");
+                            sender.sendMessage("§dYou can download your file at : §5https://donjon.nemesis.ovh/dl/" + result + " §d!"); //Send link if no error has occurred
                         }
                     }
                     return true;
                 }
             }
-            sender.sendMessage("§8[§dVoxel§5Witch§8] §dHelp command :");
+            sender.sendMessage("§8[§dVoxel§5Witch§8] §dHelp command :"); // Show help if command is not a registered subcommand (or empty subcommand)
             sender.sendMessage("§8- §d/voxelwitch export <filename> §7Export selection to §dfilename§7.vox file");
             sender.sendMessage("§8- §d/voxelwitch upload <filename> §7Upload selection to §dfilename§7.vox file and get an url link");
             return true;

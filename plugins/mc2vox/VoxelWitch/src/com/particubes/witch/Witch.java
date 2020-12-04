@@ -11,20 +11,20 @@ public class Witch extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        instance = this;
-        File file = new File(getDataFolder() + "/voxs");
-        if (!file.exists()) {
+        instance = this; //Set instance
+        File file = new File(getDataFolder() + "/voxs"); //Vox files folder
+        if (!file.exists()) { //If folder doesn't exist, create it
             file.mkdir();
         }
-        this.getCommand("voxelwitch").setExecutor(new commandVoxelWitch());
-        if (getServer().getPluginManager().getPlugin("WorldEdit") != null) {
+        this.getCommand("voxelwitch").setExecutor(new commandVoxelWitch()); //Register command
+        if (getServer().getPluginManager().getPlugin("WorldEdit") != null) { // Check if WorldEdit is loaded
             getLogger().info("WorldEdit found.");
             WorldEditAPI = true;
         } else {
-            getLogger().info("WorldEdit not found. Disabling VoxelWitch...");
+            getLogger().info("WorldEdit not found. Disabling VoxelWitch..."); // If WorldEdit is not found, disable VoxelWitch
             getServer().getPluginManager().disablePlugin(this);
         }
-        getLogger().info("VoxelWitch is now active ! Check out our Voxel Game : https://particubes.com ! :)");
+        getLogger().info("VoxelWitch is now active ! Check out our Voxel Game : https://particubes.com ! :)"); // Little ad because ... I love Particubes
     }
 
     @Override
