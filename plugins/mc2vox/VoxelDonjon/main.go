@@ -46,7 +46,7 @@ func uploadFile(w http.ResponseWriter, r *http.Request) {
 
 	mysql.AddFile(c, r.URL.Path[8:])
 
-	f, err := os.Create("voxs\\" + c + ".vox")
+	f, err := os.Create("voxs/" + c + ".vox")
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -57,7 +57,7 @@ func uploadFile(w http.ResponseWriter, r *http.Request) {
 }
 
 func download(w http.ResponseWriter, r *http.Request) {
-	if _, err := os.Stat("voxs\\" + r.URL.Path[4:] + ".vox"); os.IsNotExist(err) {
+	if _, err := os.Stat("voxs/" + r.URL.Path[4:] + ".vox"); os.IsNotExist(err) {
 		fmt.Fprintf(w, "File not found or expired")
 		fmt.Println("File " + r.URL.Path[4:] + ".vox" + " not found")
 		return
@@ -69,13 +69,13 @@ func download(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Disposition", "attachment; filename="+mysql.GetFile(r.URL.Path[4:])+".vox")
 	w.Header().Set("Content-Type", "application/octet-stream")
-	http.ServeFile(w, r, "voxs\\"+r.URL.Path[4:]+".vox")
+	http.ServeFile(w, r, "voxs/"+r.URL.Path[4:]+".vox")
 }
 
 func setupRoutes() {
 	http.HandleFunc("/upload/", uploadFile)
 	http.HandleFunc("/dl/", download)
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":80", nil)
 }
 
 func main() {
