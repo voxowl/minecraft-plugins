@@ -36,3 +36,19 @@ func GetFile(code string) string {
 
 	return name
 }
+
+func IsDefinitive(code string) int {
+	db := connect()
+
+	definitive := 0
+
+	err := db.QueryRow("SELECT `definitive` FROM `files` WHERE `code` = ?", code).Scan(&definitive)
+
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	defer db.Close()
+
+	return definitive
+}
