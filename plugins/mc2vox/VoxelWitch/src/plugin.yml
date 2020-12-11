@@ -1,7 +1,11 @@
 main: com.particubes.witch.Witch
 version: 1.0
 author: Particubes
+website: "https://particubes.com"
+authors:
+  - IkutoPhoenix
 name: VoxelWitch
+description: "Convert minecraft regions to Magica Voxel .vox files"
 softdepend:
   - WorldEdit
 api-version: 1.13
