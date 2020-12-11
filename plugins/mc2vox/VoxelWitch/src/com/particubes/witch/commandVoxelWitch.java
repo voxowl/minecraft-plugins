@@ -82,7 +82,7 @@ public class commandVoxelWitch implements CommandExecutor {
                         } else if (result.equalsIgnoreCase("@E2")) {
                             sender.sendMessage("§cThe file isn't a vox file !");
                         } else {
-                            sender.sendMessage("§dYou can download your file at : §5https://donjon.nemesis.ovh/dl/" + result + " §d!"); //Send link if no error has occurred
+                            sender.sendMessage("§dYou can download your file at : §5https://donjon.nemesis.ovh/dl/" + result + " §d! §7§o(validity : 1 day)\""); //Send link if no error has occurred
                         }
                     }
                     return true;
