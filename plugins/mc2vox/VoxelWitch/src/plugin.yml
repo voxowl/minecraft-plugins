@@ -9,3 +9,20 @@ commands:
   voxelwitch:
     aliases: [vwitch,vw]
     description: Voxel Witch main command
+
+permissions:
+  voxelwitch.cmd:
+    description: Command permission
+    default: op
+  voxelwitch.upload:
+    description: Upload vox permission
+    default: op
+  voxelwitch.export:
+    description: Export to vox permission
+    default: op
+  voxelwitch.*:
+    description: 'Give all plugin''s permissions'
+    children:
+      voxelwitch.cmd: true
+      voxelwitch.upload: true
+      voxelwitch.export: true
