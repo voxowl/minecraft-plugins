@@ -10,7 +10,7 @@ import java.nio.file.Files;
 public class httpRequest {
 
     public static String uploadVox (File file, String name) {
-        String url = "https://donjon.nemesis.ovh/upload/" + name; // URL
+        String url = "https://donjon.wyvern.ovh/upload/" + name; // URL
         int response = 0; // Response code
         StringBuilder result = new StringBuilder("@UE"); // String Builder with "Unknown Error" as default string
         String boundary = Long.toHexString(System.currentTimeMillis()); // Random Boundary string
