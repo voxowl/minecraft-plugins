@@ -1,6 +1,6 @@
 # VoxelWitch
 
-VoxelWitch is a plugin that allows you to export portions of your world into Magicavoxel .vox files using WorldEdit selection.
+VoxelWitch is a plugin that allows you to export portions of your Minecraft world into Magicavoxel `.vox` files using WorldEdit selection.
 
 ## How to install
 
