@@ -56,3 +56,8 @@ Base permission : `voxelwitch.cmd`
 
 * `colors.json` - contains the palette with color and materials and block map.
 * `config.yml`  - contains the settings of VoxelWitch.
+
+## Examples
+
+![exportvoxelwitch](https://user-images.githubusercontent.com/33163837/119567926-33bdca00-bdad-11eb-97e8-e84016cd0701.png)
+
