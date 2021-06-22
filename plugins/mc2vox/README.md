@@ -42,7 +42,10 @@ It can also be imported in [Particubes](https://particubes.com) and other softwa
 
 ## Commands
 
-Base permission : `voxelwitch.cmd`
+* `/voxelwitch` - Base command
+
+  * Permission : `voxelwitch.cmd`
+  * Aliases : `/vwitch`, `/vw`
 
 * `/voxelwitch export <filename>` - Export region to .vox file in `/plugins/VoxelWitch/voxs` folder
 
