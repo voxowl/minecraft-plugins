@@ -44,7 +44,7 @@ It can also be imported in [Particubes](https://particubes.com) and other softwa
 
 * `/voxelwitch` - Base command
 
-  * Permission : `voxelwitch.cmd`
+  * Permission : `voxelwitch.cmd` - This permission is needed for the next commands
   * Aliases : `/vwitch`, `/vw`
 
 * `/voxelwitch export <filename>` - Export region to .vox file in `/plugins/VoxelWitch/voxs` folder
