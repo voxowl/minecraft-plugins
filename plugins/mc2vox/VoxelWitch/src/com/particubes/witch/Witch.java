@@ -12,6 +12,7 @@ public class Witch extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        saveDefaultConfig(); // Save config.yml
         instance = this; //Set instance
         File file = new File(getDataFolder() + "/voxs"); //Vox files folder
         if (!file.exists()) { //If folder doesn't exist, create it
