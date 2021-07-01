@@ -18,16 +18,15 @@ VoxelWitch is a plugin that allows you to export portions of your Minecraft worl
 <img width="498" alt="Screen Shot 2021-05-19 at 22 52 31" src="https://user-images.githubusercontent.com/6775074/118882869-e9dc6c00-b8f4-11eb-9f59-eb42cdd861b4.png">
 
 #### Select the box you want to export using the wooden axe:
-  - Left click for the first corner block
-  - Right click for the second corner block
+  - Holding a wooden axe:
+    - Left click for the first corner block
+    - Right click for the second corner block
 
 <img width="332" alt="Screen Shot 2021-05-19 at 22 57 54" src="https://user-images.githubusercontent.com/6775074/118883592-b221f400-b8f5-11eb-82b6-f0a3aa41f779.png">
 
- 💡 For the upper part of your selection, do not hesitate to create a staircase or a ladder with dirt to reach the desired height.
- 
- ⚠️ Possible issue: if the wooden axe doesn't work, take it in your hand and use the `/addwand` command (`/remwand` to detach the function).
+💡 For the upper part of your selection, do not hesitate to create a staircase or a ladder with dirt to reach the desired height.
 
- 👉 It is  also possible to set the 2 box selection corners using `/pos1` and `/pos2` commands while standing on the chosen blocks.
+💡 This plugin depends on another plugin called **WorldEdit**, and that plugin provides other ways to select a volume. You can check [this link](https://worldedit.enginehub.org/en/latest/usage/regions/selections/) to learn more about this.
 
 #### Upload your `.vox` file
 
