@@ -22,14 +22,14 @@ public class httpRequest {
             OutputStream outputStream = connection.getOutputStream();
             PrintWriter writer = new PrintWriter(new OutputStreamWriter(outputStream, StandardCharsets.UTF_8), true);
 
-            writer.append("--" + boundary + "\r\n");
-            writer.append("Content-Disposition: form-data; name=\"file\"; filename=\"" + file.getName() + "\"\r\n");
+            writer.append("--").append(boundary).append("\r\n");
+            writer.append("Content-Disposition: form-data; name=\"file\"; filename=\"").append(file.getName()).append("\"\r\n");
             writer.append("Content-Type: application/octet-stream\r\n");
             writer.append("\r\n").flush();
             Files.copy(file.toPath(), outputStream);
             outputStream.flush();
             writer.append("\r\n").flush();
-            writer.append("--" + boundary + "--\r\n").flush();
+            writer.append("--").append(boundary).append("--\r\n").flush();
             response = ((HttpURLConnection) connection).getResponseCode();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
             String out; // Temp string
