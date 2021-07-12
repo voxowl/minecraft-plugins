@@ -81,6 +81,8 @@ public class commandVoxelWitch implements CommandExecutor {
                             sender.sendMessage("§cThe vox file is larger than 8MiB");
                         } else if (result.equalsIgnoreCase("@E2")) {
                             sender.sendMessage("§cThe file isn't a vox file !");
+                        } else if (result.equalsIgnoreCase("@E3")) {
+                            sender.sendMessage("§cYou uploaded more than 25 vox last 24 hours !");
                         } else {
                             sender.sendMessage("§dYou can download your file at : §5https://" + Witch.instance.getConfig().getString("donjon-hostname") + "/dl/" + result + " §d! §7§o(validity : 1 day)"); //Send link if no error has occurred
                         }
