@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"minecraft-plugins/plugins/mc2vox/VoxelDonjon/mysql"
 	"net/http"
 	"os"
 	"strconv"
@@ -13,6 +12,16 @@ import (
 )
 
 func uploadFile(w http.ResponseWriter, r *http.Request) {
+	ipAddr := r.Header.Get("X-Forwarded-For")
+
+	ipAddrCount := IPUploadCount(ipAddr)
+
+	if ipAddrCount >= 25 { // If there is more than 25 voxs uploaded for 24 hours, block upload
+		fmt.Println("Too much upload for 24 hours")
+		fmt.Fprintf(w, "@E3") // Show custom error code
+		return
+	}
+
 	fmt.Println("File Upload Endpoint Hit")
 	file, handler, err := r.FormFile("file")
 	if err != nil {
@@ -47,7 +56,7 @@ func uploadFile(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	mysql.AddFile(c, r.URL.Path[8:])
+	AddFile(c, r.URL.Path[8:], ipAddr)
 
 	f, err := os.Create("voxs/" + c + ".vox")
 	if err != nil {
@@ -70,7 +79,7 @@ func download(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	w.Header().Set("Content-Disposition", "attachment; filename="+mysql.GetFile(r.URL.Path[4:])+".vox")
+	w.Header().Set("Content-Disposition", "attachment; filename="+GetFile(r.URL.Path[4:])+".vox")
 	w.Header().Set("Content-Type", "application/octet-stream")
 	http.ServeFile(w, r, "voxs/"+r.URL.Path[4:]+".vox")
 }
@@ -82,18 +91,18 @@ func setupRoutes() {
 }
 
 func autoRM() {
-	files, err := ioutil.ReadDir("plugins/mc2vox/VoxelDonjon/voxs")
+	files, err := ioutil.ReadDir("voxs")
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	for _, f := range files {
 		code := strings.ReplaceAll(f.Name(), ".vox", "")
-		if mysql.IsDefinitive(code) == 0 { // If file is persistent
+		if IsDefinitive(code) == 0 { // If file is persistent
 			ts, _ := strconv.ParseInt(code, 16, 64)
 			if ts < (time.Now().UnixNano() - 8.64e+13) { // If file date is older than 1 day
 				fmt.Println(f.Name() + " expired")
-				os.Remove("plugins/mc2vox/VoxelDonjon/voxs/" + f.Name()) // Delete file
+				os.Remove("voxs/" + f.Name()) // Delete file
 			}
 		}
 	}

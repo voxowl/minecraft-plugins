@@ -1,15 +1,15 @@
-package mysql
+package main
 
 import (
 	"fmt"
 )
 
-func AddFile(code string, friendlyName string) bool {
-	db := connect()
+func AddFile(code string, friendlyName string, ipAddr string) bool {
+	db := Connect()
 
 	res := true
 
-	insert, err := db.Query("INSERT INTO files(`code`, `friendlyName`) VALUES(?, ?)", code, friendlyName)
+	insert, err := db.Query("INSERT INTO files(`code`, `friendlyName`, `ip`) VALUES(?, ?, ?)", code, friendlyName, ipAddr)
 
 	if err != nil {
 		fmt.Println(err)
@@ -22,7 +22,7 @@ func AddFile(code string, friendlyName string) bool {
 }
 
 func GetFile(code string) string {
-	db := connect()
+	db := Connect()
 
 	name := "voxels"
 
@@ -38,7 +38,7 @@ func GetFile(code string) string {
 }
 
 func IsDefinitive(code string) int {
-	db := connect()
+	db := Connect()
 
 	definitive := 0
 
@@ -51,4 +51,20 @@ func IsDefinitive(code string) int {
 	defer db.Close()
 
 	return definitive
+}
+
+func IPUploadCount(ipAddr string) int {
+	db := Connect()
+
+	count := 0
+
+	err := db.QueryRow("SELECT COUNT(`ip`) AS `count` FROM `files` WHERE `ip` = ? AND `date` >= NOW() - INTERVAL 1 DAY", ipAddr).Scan(&count)
+
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	defer db.Close()
+
+	return count
 }
