@@ -12,7 +12,12 @@ import (
 )
 
 func uploadFile(w http.ResponseWriter, r *http.Request) {
-	ipAddr := r.Header.Get("X-Forwarded-For")
+	//ipAddr := r.Header.Get("X-Forwarded-For")
+	ipAddr := r.Header.Get("CF-Connecting-IP") //Cloudflare header
+
+	if strings.Contains(ipAddr, ",") {
+		ipAddr = strings.SplitAfter(ipAddr, ",")[0]
+	}
 
 	ipAddrCount := IPUploadCount(ipAddr)
 
