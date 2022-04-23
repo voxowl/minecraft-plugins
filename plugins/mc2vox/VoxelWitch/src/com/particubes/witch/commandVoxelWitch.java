@@ -25,7 +25,14 @@ public class commandVoxelWitch implements CommandExecutor {
                 return true;
             }
             if (args.length > 0) {
-                if (args[0].equalsIgnoreCase("export") || args[0].equalsIgnoreCase("upload")) {
+                if (args[0].equalsIgnoreCase("reload")) {
+                    if (!sender.hasPermission("voxelwitch." + args[0].toLowerCase())) { // Check if sender has the permission to access command
+                        sender.sendMessage("§cYou don't have the permission §4voxelwitch." + args[0].toLowerCase() + "§c to do that !");
+                        return true;
+                    }
+                    Witch.instance.reloadConfig();
+                    sender.sendMessage("§dConfig reloaded !");
+                } else if (args[0].equalsIgnoreCase("export") || args[0].equalsIgnoreCase("upload")) {
                     if (!sender.hasPermission("voxelwitch." + args[0].toLowerCase())) { // Check if sender has the permission to access command
                         sender.sendMessage("§cYou don't have the permission §4voxelwitch." + args[0].toLowerCase() + "§c to do that !");
                         return true;
@@ -45,7 +52,13 @@ public class commandVoxelWitch implements CommandExecutor {
 
                     Model model = new Model(); // New Voxel model
                     
-                    List<Voxel> voxels = worldEdit.getRegionToVoxel((Player) sender); // Convert worldedit region to voxel list
+                    List<Voxel> voxels;
+                    if (Witch.instance.WorldEditAPI) {
+                        voxels = worldEdit.getRegionToVoxel((Player) sender); // Convert worldedit region to voxel list
+                    } else {
+                        voxels = process.getRegionToVoxel((Player) sender); // Convert region made with voxelwitch wand
+                    }
+
                     if (voxels == null) {
                         return true;
                     }

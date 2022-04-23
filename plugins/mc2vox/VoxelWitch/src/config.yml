@@ -1,2 +1,6 @@
 # Voxel Donjon hostname
 donjon-hostname: "donjon.wyvern.ovh"
+# Use WorldEdit Selection if available (needs to reload the plugin)
+worldedit: true
+# Voxel Witch item wand material (if worldedit integration disabled)
+item-wand: leather

@@ -1,5 +1,5 @@
 main: com.particubes.witch.Witch
-version: 1.0
+version: 1.1
 author: Particubes
 website: "https://particubes.com"
 authors:
@@ -24,9 +24,13 @@ permissions:
   voxelwitch.export:
     description: Export to vox permission
     default: op
+  voxelwitch.wand:
+    description: Permission to use voxelwitch's wand
+    default: op
   voxelwitch.*:
     description: 'Give all plugin''s permissions'
     children:
       voxelwitch.cmd: true
       voxelwitch.upload: true
       voxelwitch.export: true
+      voxelwitch.wand: true

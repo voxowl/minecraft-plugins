@@ -1,14 +1,19 @@
 package com.particubes.witch;
 
+import com.particubes.witch.Events.interactEvent;
+import com.particubes.witch.Variables.Pos;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.*;
+import java.util.HashMap;
 import java.util.Objects;
 
 public class Witch extends JavaPlugin {
 
     public static Witch instance;
-    boolean WorldEditAPI = false;
+    public boolean WorldEditAPI = false;
+    public HashMap<Player, Pos> posHashMap = new HashMap<>();
 
     @Override
     public void onEnable() {
@@ -43,12 +48,12 @@ public class Witch extends JavaPlugin {
             }
         }
         Objects.requireNonNull(this.getCommand("voxelwitch")).setExecutor(new commandVoxelWitch()); //Register command
-        if (getServer().getPluginManager().getPlugin("WorldEdit") != null) { // Check if WorldEdit is loaded
+        if (getServer().getPluginManager().getPlugin("WorldEdit") != null && getConfig().getBoolean("worldedit")) { // Check if WorldEdit is loaded and activated in config file
             getLogger().info("WorldEdit found.");
             WorldEditAPI = true;
         } else {
-            getLogger().info("WorldEdit not found. Disabling VoxelWitch..."); // If WorldEdit is not found, disable VoxelWitch
-            getServer().getPluginManager().disablePlugin(this);
+            getLogger().info("WorldEdit not found."); // If WorldEdit is not found
+            getServer().getPluginManager().registerEvents(new interactEvent(), this);
             return;
         }
         getLogger().info("VoxelWitch is now active ! Check out Particubes Voxel Game : https://particubes.com ! :)"); // Little ad because ... I love Particubes
