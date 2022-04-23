@@ -5,3 +5,5 @@ voxs
 /plugins/mc2vox/VoxelDonjon/mysql/mysqlConnection.go
 
 minecraft-plugins.iml
+
+plugins/mc2vox/VoxelWitch/VoxelWitch.iml
