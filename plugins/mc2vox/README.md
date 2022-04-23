@@ -1,13 +1,13 @@
 # VoxelWitch
 
-VoxelWitch is a plugin that allows you to export portions of your Minecraft world into [Magicavoxel](https://ephtracy.github.io) `.vox` files using [WorldEdit](https://dev.bukkit.org/projects/worldedit) selection.
+VoxelWitch is a plugin that allows you to export portions of your Minecraft world into [Magicavoxel](https://ephtracy.github.io) `.vox` files (compatible with WorldEdit).
 
 ## How to install
 
 ⚠️ Make sure that you are using the Java version of Minecraft.
 ⚠️ Your Minecraft server has to be a Bukkit server such as [Spigot](https://spigotmc.org) or [Paper](https://papermc.io) (Paper is recommended over Spigot)
 
-1. Put [WorldEdit](https://dev.bukkit.org/projects/worldedit/files) and VoxelWitch jarfiles in `/plugins` folder
+1. Put VoxelWitch jarfile in `/plugins` folder, you can add [WorldEdit](https://dev.bukkit.org/projects/worldedit/files) plugin if you want
 2. Start your server
 3. Enjoy! ✨
 
@@ -17,8 +17,8 @@ VoxelWitch is a plugin that allows you to export portions of your Minecraft worl
 
 <img width="498" alt="Screen Shot 2021-05-19 at 22 52 31" src="https://user-images.githubusercontent.com/6775074/118882869-e9dc6c00-b8f4-11eb-9f59-eb42cdd861b4.png">
 
-#### Select the box you want to export using the wooden axe:
-  - Holding a wooden axe:
+#### Select the box you want to export using the selection wand (by default, the wand is leather):
+  - Holding the selection wand in the main hand:
     - Left click for the first corner block
     - Right click for the second corner block
 
@@ -26,7 +26,12 @@ VoxelWitch is a plugin that allows you to export portions of your Minecraft worl
 
 💡 For the upper part of your selection, do not hesitate to create a staircase or a ladder with dirt to reach the desired height.
 
-💡 This plugin depends on another plugin called **WorldEdit**, and that plugin provides other ways to select a volume. You can check [this link](https://worldedit.enginehub.org/en/latest/usage/regions/selections/) to learn more about this.
+💡 This plugin can use another plugin called **WorldEdit**, and that plugin provides other ways to select a volume. You can check [this link](https://worldedit.enginehub.org/en/latest/usage/regions/selections/) to learn more about this.
+
+#### Export your `.vox` file
+
+- Use this command: `/vw export <filename>`
+- You can find your `.vox` file in the `voxs` folder in plugin's config folder.
 
 #### Upload your `.vox` file
 
@@ -54,10 +59,17 @@ It can also be imported in [Particubes](https://particubes.com) and other softwa
 
   * Permission : `voxelwitch.upload`
 
+#### Other permissions
+
+ * `voxelwitch.wand` - Permission to use the selection wand (standalone mode)
+
 ## Config files
 
 * `colors.json` - contains the palette with color and materials and block map.
 * `config.yml`  - contains the settings of VoxelWitch.
+  * `donjon-hostname` - VoxelDonjon hostname (use HTTPS)
+  * `worldedit` - If set to false, the plugin will always run in the standalone mode
+  * `item-wand` - Change the item for the VoxelWitch's wand (only in standalone mode), you need to use [material](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html) names
 
 ## Examples
 
