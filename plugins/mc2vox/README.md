@@ -33,7 +33,7 @@ VoxelWitch is a plugin that allows you to export portions of your Minecraft worl
 - Use this command: `/vw export <filename>`
 - You can find your `.vox` file in the `voxs` folder in plugin's config folder.
 
-#### Upload your `.vox` file
+#### Upload your `.vox` file (Plugin version only!)
 
 - Use this command: `/vw upload <filename>`
 - Click on the link in the dialog box to download the `.vox` file.
