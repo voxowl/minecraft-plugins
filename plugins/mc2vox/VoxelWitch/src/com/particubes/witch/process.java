@@ -18,11 +18,8 @@ import java.util.List;
 public class process {
 
     public static List<Voxel> getRegionToVoxel (Player player) {
-
-        Region region;
-
         Pos pos = Witch.instance.posHashMap.get(player);
-        if (!pos.isPos1() || !pos.isPos2()) {
+        if (!pos.isPos1() || !pos.isPos2()) { // If the first or second point is not set
             player.sendMessage("§cPlease make a region selection first.");
             return null;
         }

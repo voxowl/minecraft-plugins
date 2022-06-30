@@ -2,2376 +2,2173 @@
 	"colors":
 	{
 		"1":{
-			"color":"#080A0F"
+			"color":"#ffffff"
 		},
 		"2":{
-			"color":"#0F0A18"
+			"color":"#f7f7f7"
 		},
 		"3":{
-			"color":"#100F0F"
+			"color":"#f3f3f3"
 		},
 		"4":{
-			"color":"#141519"
+			"color":"#efefef"
 		},
 		"5":{
-			"color":"#147987"
+			"color":"#ebebeb"
 		},
 		"6":{
-			"color":"#157788"
+			"color":"#e7e7e7"
 		},
 		"7":{
-			"color":"#158991"
+			"color":"#e3e3e3"
 		},
 		"8":{
-			"color":"#167779"
+			"color":"#dfdfdf"
 		},
 		"9":{
-			"color":"#188E00"
+			"color":"#dbdbdb"
 		},
 		"10":{
-			"color":"#191919"
+			"color":"#d7d7d7"
 		},
 		"11":{
-			"color":"#19191D"
+			"color":"#d3d3d3"
 		},
 		"12":{
-			"color":"#191A1F"
+			"color":"#cfcfcf"
 		},
 		"13":{
-			"color":"#1E438C"
+			"color":"#cbcbcb"
 		},
 		"14":{
-			"color":"#200A3C"
+			"color":"#c7c7c7"
 		},
 		"15":{
-			"color":"#2389C6"
+			"color":"#c3c3c3"
 		},
 		"16":{
-			"color":"#24939D"
+			"color":"#bfbfbf"
 		},
 		"17":{
-			"color":"#251610"
+			"color":"#bbbbbb"
 		},
 		"18":{
-			"color":"#2A2328"
+			"color":"#b7b7b7"
 		},
 		"19":{
-			"color":"#2ACB57"
+			"color":"#b3b3b3"
 		},
 		"20":{
-			"color":"#2B2D8C"
+			"color":"#afafaf"
 		},
 		"21":{
-			"color":"#2B6863"
+			"color":"#ababab"
 		},
 		"22":{
-			"color":"#2B7265"
+			"color":"#a7a7a7"
 		},
 		"23":{
-			"color":"#2C151A"
+			"color":"#a3a3a3"
 		},
 		"24":{
-			"color":"#2C2E8F"
+			"color":"#9f9f9f"
 		},
 		"25":{
-			"color":"#2F408B"
+			"color":"#9b9b9b"
 		},
 		"26":{
-			"color":"#3157CE"
+			"color":"#979797"
 		},
 		"27":{
-			"color":"#31A3D4"
+			"color":"#939393"
 		},
 		"28":{
-			"color":"#334CB2"
+			"color":"#8f8f8f"
 		},
 		"29":{
-			"color":"#335B4B"
+			"color":"#8b8b8b"
 		},
 		"30":{
-			"color":"#34767D"
+			"color":"#878787"
 		},
 		"31":{
-			"color":"#353038"
+			"color":"#838383"
 		},
 		"32":{
-			"color":"#35399D"
+			"color":"#808080"
 		},
 		"33":{
-			"color":"#36393D"
+			"color":"#ff0000"
 		},
 		"34":{
-			"color":"#373A3E"
+			"color":"#ff0018"
 		},
 		"35":{
-			"color":"#382B26"
+			"color":"#ff0020"
 		},
 		"36":{
-			"color":"#392A23"
+			"color":"#ff0028"
 		},
 		"37":{
-			"color":"#3A2510"
+			"color":"#ff0030"
 		},
 		"38":{
-			"color":"#3A3A4D"
+			"color":"#ff0038"
 		},
 		"39":{
-			"color":"#3AAFD9"
+			"color":"#ff0048"
 		},
 		"40":{
-			"color":"#3C2E1A"
+			"color":"#ff0048"
 		},
 		"41":{
-			"color":"#3E4447"
+			"color":"#ff0050"
 		},
 		"42":{
-			"color":"#422B14"
+			"color":"#ff0058"
 		},
 		"43":{
-			"color":"#423D3F"
+			"color":"#ff0060"
 		},
 		"44":{
-			"color":"#431E20"
+			"color":"#ff0068"
 		},
 		"45":{
-			"color":"#450709"
+			"color":"#ff0070"
 		},
 		"46":{
-			"color":"#452B14"
+			"color":"#ff0078"
 		},
 		"47":{
-			"color":"#4649A6"
+			"color":"#ff0080"
 		},
 		"48":{
-			"color":"#49484D"
+			"color":"#ff0087"
 		},
 		"49":{
-			"color":"#495B24"
+			"color":"#ff008f"
 		},
 		"50":{
-			"color":"#4A3B5B"
+			"color":"#ff0097"
 		},
 		"51":{
-			"color":"#4AB4D5"
+			"color":"#ff009f"
 		},
 		"52":{
-			"color":"#4B392E"
+			"color":"#ff00a7"
 		},
 		"53":{
-			"color":"#4C4C4C"
+			"color":"#ff00af"
 		},
 		"54":{
-			"color":"#4C5154"
+			"color":"#ff00b7"
 		},
 		"55":{
-			"color":"#4C532A"
+			"color":"#ff00bf"
 		},
 		"56":{
-			"color":"#4C7F99"
+			"color":"#ff00c7"
 		},
 		"57":{
-			"color":"#4D3323"
+			"color":"#ff00cf"
 		},
 		"58":{
-			"color":"#4E7328"
+			"color":"#ff00d7"
 		},
 		"59":{
-			"color":"#4F641F"
+			"color":"#ff00df"
 		},
 		"60":{
-			"color":"#505051"
+			"color":"#ff00e7"
 		},
 		"61":{
-			"color":"#513E32"
+			"color":"#ff00ef"
 		},
 		"62":{
-			"color":"#535A5D"
+			"color":"#ff00f7"
 		},
 		"63":{
-			"color":"#546D1B"
+			"color":"#ff00ff"
 		},
 		"64":{
-			"color":"#554319"
+			"color":"#f700ff"
 		},
 		"65":{
-			"color":"#555555"
+			"color":"#ef00ff"
 		},
 		"66":{
-			"color":"#565B5B"
+			"color":"#e700ff"
 		},
 		"67":{
-			"color":"#583A28"
+			"color":"#df00ff"
 		},
 		"68":{
-			"color":"#5B3F18"
+			"color":"#d700ff"
 		},
 		"69":{
-			"color":"#5C191D"
+			"color":"#cf00ff"
 		},
 		"70":{
-			"color":"#5EA4D0"
+			"color":"#c700ff"
 		},
 		"71":{
-			"color":"#5EA818"
+			"color":"#bf00ff"
 		},
 		"72":{
-			"color":"#5F361E"
+			"color":"#b700ff"
 		},
 		"73":{
-			"color":"#5F3F37"
+			"color":"#af00ff"
 		},
 		"74":{
-			"color":"#603B1F"
+			"color":"#a700ff"
 		},
 		"75":{
-			"color":"#612626"
+			"color":"#9f00ff"
 		},
 		"76":{
-			"color":"#61772C"
+			"color":"#9700ff"
 		},
 		"77":{
-			"color":"#62EDE4"
+			"color":"#8f00ff"
 		},
 		"78":{
-			"color":"#636E84"
+			"color":"#8700ff"
 		},
 		"79":{
-			"color":"#639C97"
+			"color":"#8000ff"
 		},
 		"80":{
-			"color":"#63AB9E"
+			"color":"#7800ff"
 		},
 		"81":{
-			"color":"#63AC17"
+			"color":"#7000ff"
 		},
 		"82":{
-			"color":"#641F9C"
+			"color":"#6800ff"
 		},
 		"83":{
-			"color":"#653046"
+			"color":"#6000ff"
 		},
 		"84":{
-			"color":"#664C33"
+			"color":"#5800ff"
 		},
 		"85":{
-			"color":"#667F33"
+			"color":"#5000ff"
 		},
 		"86":{
-			"color":"#6699D8"
+			"color":"#4800ff"
 		},
 		"87":{
-			"color":"#67209C"
+			"color":"#4000ff"
 		},
 		"88":{
-			"color":"#676056"
+			"color":"#3800ff"
 		},
 		"89":{
-			"color":"#677534"
+			"color":"#3000ff"
 		},
 		"90":{
-			"color":"#6A4223"
+			"color":"#2800ff"
 		},
 		"91":{
-			"color":"#6B5132"
+			"color":"#2000ff"
 		},
 		"92":{
-			"color":"#6D3098"
+			"color":"#1800ff"
 		},
 		"93":{
-			"color":"#6D5532"
+			"color":"#1000ff"
 		},
 		"94":{
-			"color":"#6E6D6D"
+			"color":"#0800ff"
 		},
 		"95":{
-			"color":"#6E765E"
+			"color":"#0000ff"
 		},
 		"96":{
-			"color":"#6F6265"
+			"color":"#0008ff"
 		},
 		"97":{
-			"color":"#6FC05B"
+			"color":"#0010ff"
 		},
 		"98":{
-			"color":"#70B919"
+			"color":"#0018ff"
 		},
 		"99":{
-			"color":"#716C89"
+			"color":"#0020ff"
 		},
 		"100":{
-			"color":"#720202"
+			"color":"#0028ff"
 		},
 		"101":{
-			"color":"#724728"
+			"color":"#0030ff"
 		},
 		"102":{
-			"color":"#725430"
+			"color":"#0038ff"
 		},
 		"103":{
-			"color":"#72921E"
+			"color":"#0040ff"
 		},
 		"104":{
-			"color":"#73362A"
+			"color":"#0048ff"
 		},
 		"105":{
-			"color":"#737969"
+			"color":"#0050ff"
 		},
 		"106":{
-			"color":"#747474"
+			"color":"#0058ff"
 		},
 		"107":{
-			"color":"#74A7FD"
+			"color":"#0060ff"
 		},
 		"108":{
-			"color":"#75413E"
+			"color":"#0068ff"
 		},
 		"109":{
-			"color":"#758E43"
+			"color":"#0070ff"
 		},
 		"110":{
-			"color":"#764656"
+			"color":"#0078ff"
 		},
 		"111":{
-			"color":"#77553B"
+			"color":"#0080ff"
 		},
 		"112":{
-			"color":"#776A55"
+			"color":"#0087ff"
 		},
 		"113":{
-			"color":"#77777B"
+			"color":"#008fff"
 		},
 		"114":{
-			"color":"#792AAC"
+			"color":"#0097ff"
 		},
 		"115":{
-			"color":"#7A797A"
+			"color":"#009fff"
 		},
 		"116":{
-			"color":"#7A8463"
+			"color":"#00a7ff"
 		},
 		"117":{
-			"color":"#7C7C73"
+			"color":"#00afff"
 		},
 		"118":{
-			"color":"#7D5435"
+			"color":"#00b7ff"
 		},
 		"119":{
-			"color":"#7D7D73"
+			"color":"#00bfff"
 		},
 		"120":{
-			"color":"#7D7D7D"
+			"color":"#00c7ff"
 		},
 		"121":{
-			"color":"#7D8E8D"
+			"color":"#00cfff"
 		},
 		"122":{
-			"color":"#7DBD29"
+			"color":"#00d7ff"
 		},
 		"123":{
-			"color":"#7F3FB2"
+			"color":"#00dfff"
 		},
 		"124":{
-			"color":"#7F7F7F"
+			"color":"#00e7ff"
 		},
 		"125":{
-			"color":"#7FCC19"
+			"color":"#00efff"
 		},
 		"126":{
-			"color":"#816FB0"
+			"color":"#00f7ff"
 		},
 		"127":{
-			"color":"#821F1F"
+			"color":"#00ffff"
 		},
 		"128":{
-			"color":"#8337B1"
+			"color":"#00fff7"
 		},
 		"129":{
-			"color":"#837B77"
+			"color":"#00ffef"
 		},
 		"130":{
-			"color":"#837F7E"
+			"color":"#00ffe7"
 		},
 		"131":{
-			"color":"#848685"
+			"color":"#00ffdf"
 		},
 		"132":{
-			"color":"#84A596"
+			"color":"#00ffd7"
 		},
 		"133":{
-			"color":"#856B6B"
+			"color":"#00ffcf"
 		},
 		"134":{
-			"color":"#866043"
+			"color":"#00ffc7"
 		},
 		"135":{
-			"color":"#876A61"
+			"color":"#00ffbf"
 		},
 		"136":{
-			"color":"#88827F"
+			"color":"#00ffb7"
 		},
 		"137":{
-			"color":"#888888"
+			"color":"#00ffaf"
 		},
 		"138":{
-			"color":"#8B608B"
+			"color":"#00ffa7"
 		},
 		"139":{
-			"color":"#8C1F1E"
+			"color":"#00ff9f"
 		},
 		"140":{
-			"color":"#8DB4FA"
+			"color":"#00ff97"
 		},
 		"141":{
-			"color":"#8E2020"
+			"color":"#00ff8f"
 		},
 		"142":{
-			"color":"#8E3F1F"
+			"color":"#00ff87"
 		},
 		"143":{
-			"color":"#8E8E86"
+			"color":"#00ff80"
 		},
 		"144":{
-			"color":"#8F3D2E"
+			"color":"#00ff78"
 		},
 		"145":{
-			"color":"#8F8C7D"
+			"color":"#00ff70"
 		},
 		"146":{
-			"color":"#90A6A7"
+			"color":"#00ff68"
 		},
 		"147":{
-			"color":"#91B7FD"
+			"color":"#00ff60"
 		},
 		"148":{
-			"color":"#947941"
+			"color":"#00ff58"
 		},
 		"149":{
-			"color":"#95586C"
+			"color":"#00ff50"
 		},
 		"150":{
-			"color":"#956755"
+			"color":"#00ff48"
 		},
 		"151":{
-			"color":"#956F51"
+			"color":"#00ff40"
 		},
 		"152":{
-			"color":"#966153"
+			"color":"#00ff38"
 		},
 		"153":{
-			"color":"#985E43"
+			"color":"#00ff30"
 		},
 		"154":{
-			"color":"#993333"
+			"color":"#00ff28"
 		},
 		"155":{
-			"color":"#999999"
+			"color":"#00ff20"
 		},
 		"156":{
-			"color":"#9A6A59"
+			"color":"#00ff18"
 		},
 		"157":{
-			"color":"#9A935B"
+			"color":"#00ff10"
 		},
 		"158":{
-			"color":"#9A9A94"
+			"color":"#00ff08"
 		},
 		"159":{
-			"color":"#9D7E4B"
+			"color":"#00ff00"
 		},
 		"160":{
-			"color":"#9E9E9E"
+			"color":"#08ff00"
 		},
 		"161":{
-			"color":"#A02722"
+			"color":"#10ff00"
 		},
 		"162":{
-			"color":"#A07350"
+			"color":"#18ff00"
 		},
 		"163":{
-			"color":"#A0A6B3"
+			"color":"#20ff00"
 		},
 		"164":{
-			"color":"#A14E4E"
+			"color":"#28ff00"
 		},
 		"165":{
-			"color":"#A15325"
+			"color":"#30ff00"
 		},
 		"166":{
-			"color":"#A2824E"
+			"color":"#38ff00"
 		},
 		"167":{
-			"color":"#A2C537"
+			"color":"#40ff00"
 		},
 		"168":{
-			"color":"#A3232E"
+			"color":"#48ff00"
 		},
 		"169":{
-			"color":"#A51AA2"
+			"color":"#50ff00"
 		},
 		"170":{
-			"color":"#A68826"
+			"color":"#58ff00"
 		},
 		"171":{
-			"color":"#A83632"
+			"color":"#60ff00"
 		},
 		"172":{
-			"color":"#A85A32"
+			"color":"#68ff00"
 		},
 		"173":{
-			"color":"#A9309F"
+			"color":"#70ff00"
 		},
 		"174":{
-			"color":"#A97DA9"
+			"color":"#78ff00"
 		},
 		"175":{
-			"color":"#AB8354",
-			"material":"emission",
-			"_weight":1.0,
-			"_flux":2.0,
-			"_ldr":0
+			"color":"#80ff00"
 		},
 		"176":{
-			"color":"#ACC7BE"
+			"color":"#87ff00"
 		},
 		"177":{
-			"color":"#AD36A3"
+			"color":"#8fff00"
 		},
 		"178":{
-			"color":"#AF1805"
+			"color":"#97ff00"
 		},
 		"179":{
-			"color":"#B24CD8"
+			"color":"#9fff00"
 		},
 		"180":{
-			"color":"#B53B35"
+			"color":"#a7ff00"
 		},
 		"181":{
-			"color":"#B5886C"
+			"color":"#afff00"
 		},
 		"182":{
-			"color":"#B65854"
+			"color":"#b7ff00"
 		},
 		"183":{
-			"color":"#BA8523"
+			"color":"#bfff00"
 		},
 		"184":{
-			"color":"#BCBCBC"
+			"color":"#c7ff00"
 		},
 		"185":{
-			"color":"#BCD4CA"
+			"color":"#cfff00"
 		},
 		"186":{
-			"color":"#BD44B3"
+			"color":"#d7ff00"
 		},
 		"187":{
-			"color":"#BD651F"
+			"color":"#dfff00"
 		},
 		"188":{
-			"color":"#BE6621"
+			"color":"#e7ff00"
 		},
 		"189":{
-			"color":"#C053B8"
+			"color":"#efff00"
 		},
 		"190":{
-			"color":"#C0AF79"
+			"color":"#f7ff00"
 		},
 		"191":{
-			"color":"#C0C1C2"
+			"color":"#ffff00"
 		},
 		"192":{
-			"color":"#C2974B"
+			"color":"#fff700"
 		},
 		"193":{
-			"color":"#C37218"
+			"color":"#ffef00"
 		},
 		"194":{
-			"color":"#C3C04A"
+			"color":"#ffe700"
 		},
 		"195":{
-			"color":"#CF5B9F"
+			"color":"#ffdf00"
 		},
 		"196":{
-			"color":"#CFD5D6"
+			"color":"#ffd700"
 		},
 		"197":{
-			"color":"#D064BF"
+			"color":"#ffcf00"
 		},
 		"198":{
-			"color":"#D1B2A1"
+			"color":"#ffc700"
 		},
 		"199":{
-			"color":"#D45A12"
+			"color":"#ffbf00"
 		},
 		"200":{
-			"color":"#D5658E"
+			"color":"#ffb700"
 		},
 		"201":{
-			"color":"#D7DCDD"
+			"color":"#ffaf00"
 		},
 		"202":{
-			"color":"#D87F33"
+			"color":"#ffa700"
 		},
 		"203":{
-			"color":"#D8C742"
+			"color":"#ff9f00"
 		},
 		"204":{
-			"color":"#D8D7D2"
+			"color":"#ff9700"
 		},
 		"205":{
-			"color":"#D9CE9F"
+			"color":"#ff8f00"
 		},
 		"206":{
-			"color":"#DAE0A2"
+			"color":"#ff8700"
 		},
 		"207":{
-			"color":"#DBCFA3"
+			"color":"#ff8000"
 		},
 		"208":{
-			"color":"#DBDE9E"
+			"color":"#ff7800"
 		},
 		"209":{
-			"color":"#DCDCDC",
-			"material":"metal",
-			"_weight":0.72,
-			"_spec":1,
-			"_rough":0.2
+			"color":"#ff7000"
 		},
 		"210":{
-			"color":"#E06100"
+			"color":"#ff6800"
 		},
 		"211":{
-			"color":"#E1E3E3"
+			"color":"#ff6000"
 		},
 		"212":{
-			"color":"#E3831F"
+			"color":"#ff5800"
 		},
 		"213":{
-			"color":"#E499B5"
+			"color":"#ff5000"
 		},
 		"214":{
-			"color":"#E5941D"
+			"color":"#ff4800"
 		},
 		"215":{
-			"color":"#E5E1CF"
+			"color":"#ff4000"
 		},
 		"216":{
-			"color":"#E5E533",
-			"material":"_glass",
-			"_weight":0.75
+			"color":"#ff3800"
 		},
 		"217":{
-			"color":"#E6799D"
+			"color":"#ff3000"
 		},
 		"218":{
-			"color":"#E8C736"
+			"color":"#ff2800"
 		},
 		"219":{
-			"color":"#E9ECEC"
+			"color":"#ff2000"
 		},
 		"220":{
-			"color":"#EA6A08"
+			"color":"#ff1800"
 		},
 		"221":{
-			"color":"#EAC058"
+			"color":"#ff1000"
 		},
 		"222":{
-			"color":"#EB9AB5"
+			"color":"#ff0800"
 		},
 		"223":{
-			"color":"#EBE5DE"
+			"color":"#ff0000"
 		},
 		"224":{
-			"color":"#ED8DAC"
+			"color":"#ff0000"
 		},
 		"225":{
-			"color":"#F07613"
+			"color":"#7c7c7c"
 		},
 		"226":{
-			"color":"#F09246"
+			"color":"#787878"
 		},
 		"227":{
-			"color":"#F0AF15"
+			"color":"#747474"
 		},
 		"228":{
-			"color":"#F19211"
+			"color":"#707070"
 		},
 		"229":{
-			"color":"#F27FA5"
+			"color":"#6c6c6c"
 		},
 		"230":{
-			"color":"#F6D03D"
+			"color":"#686868"
 		},
 		"231":{
-			"color":"#F8BC1D"
+			"color":"#646464"
 		},
 		"232":{
-			"color":"#F8C527"
+			"color":"#606060"
 		},
 		"233":{
-			"color":"#F9FEFE"
+			"color":"#5c5c5c"
 		},
 		"234":{
-			"color":"#FFFFFF",
-			"material":"_glass",
-			"_weight":0.75
+			"color":"#585858"
 		},
 		"235":{
-			"color":"#FF00FF"
+			"color":"#545454"
 		},
 		"236":{
-			"color":"#FF00FF"
+			"color":"#505050"
 		},
 		"237":{
-			"color":"#FF00FF"
+			"color":"#4c4c4c"
 		},
 		"238":{
-			"color":"#FF00FF"
+			"color":"#484848"
 		},
 		"239":{
-			"color":"#FF00FF"
+			"color":"#444444"
 		},
 		"240":{
-			"color":"#FF00FF"
+			"color":"#404040"
 		},
 		"241":{
-			"color":"#FF00FF"
+			"color":"#3c3c3c"
 		},
 		"242":{
-			"color":"#FF00FF"
+			"color":"#383838"
 		},
 		"243":{
-			"color":"#FF00FF"
+			"color":"#343434"
 		},
 		"244":{
-			"color":"#FF00FF"
+			"color":"#303030"
 		},
 		"245":{
-			"color":"#FF00FF"
+			"color":"#2c2c2c"
 		},
 		"246":{
-			"color":"#FF00FF"
+			"color":"#282828"
 		},
 		"247":{
-			"color":"#FF00FF"
+			"color":"#242424"
 		},
 		"248":{
-			"color":"#FF00FF"
+			"color":"#202020"
 		},
 		"249":{
-			"color":"#FF00FF"
+			"color":"#1c1c1c"
 		},
 		"250":{
-			"color":"#FF00FF"
+			"color":"#141414"
 		},
 		"251":{
-			"color":"#FF00FF"
+			"color":"#101010"
 		},
 		"252":{
-			"color":"#FF00FF"
+			"color":"#0c0c0c"
 		},
 		"253":{
-			"color":"#FF00FF"
+			"color":"#080808"
 		},
 		"254":{
-			"color":"#FF00FF"
+			"color":"#040404"
 		},
 		"255":{
-			"color":"#FF00FF"
+			"color":"#000000"
 		}
+
 	},
 	"active":
 	{
-		"black_concrete":{
-			"color":"#080A0F",
-			"index":1
-		},
-		"obsidian":{
-			"color":"#0F0A18",
-			"index":2
-		},
-		"coal_block":{
-			"color":"#100F0F",
-			"index":3
-		},
-		"black_wool":{
-			"color":"#141519",
-			"index":4
-		},
-		"cyan_shulker_box":{
-			"color":"#147987",
-			"index":5
-		},
-		"cyan_concrete":{
-			"color":"#157788",
-			"index":6
-		},
-		"cyan_wool":{
-			"color":"#158991",
-			"index":7
-		},
-		"warped_wart_block":{
-			"color":"#167779",
-			"index":8
-		},
 		"acacia_leaves":{
-			"color":"#188E00",
-			"index":9
+			"color":"#737373",
+			"index":169
+		},
+		"acacia_log":{
+			"color":"#686258",
+			"index":230
+		},
+		"acacia_planks":{
+			"color":"#a95b33",
+			"index":215
+		},
+		"amethyst_block":{
+			"color":"#8b66c2",
+			"index":71
+		},
+		"ancient_debris":{
+			"color":"#63463f",
+			"index":236
+		},
+		"andesite":{
+			"color":"#89898a",
+			"index":28
+		},
+		"barrel":{
+			"color":"#735534",
+			"index":232
+		},
+		"basalt":{
+			"color":"#4b4a4f",
+			"index":236
+		},
+		"beacon":{
+			"color":"#8eded9",
+			"index":125
+		},
+		"bedrock":{
+			"color":"#5d5d5d",
+			"index":232
+		},
+		"beehive":{
+			"color":"#a0814f",
+			"index":29
+		},
+		"bee_nest":{
+			"color":"#c99e51",
+			"index":201
 		},
 		"birch_leaves":{
-			"color":"#188E00",
-			"index":9
+			"color":"#636263",
+			"index":169
 		},
-		"dark_oak_leaves":{
-			"color":"#188E00",
-			"index":9
+		"birch_log":{
+			"color":"#dfdeda",
+			"index":7
 		},
-		"grass_block":{
-			"color":"#188E00",
-			"index":9
+		"birch_planks":{
+			"color":"#c2b17a",
+			"index":198
 		},
-		"jungle_leaves":{
-			"color":"#188E00",
-			"index":9
+		"blackstone":{
+			"color":"#2c272d",
+			"index":245
 		},
-		"oak_leaves":{
-			"color":"#188E00",
-			"index":9
+		"black_concrete":{
+			"color":"#080a0f",
+			"index":252
 		},
-		"spruce_leaves":{
-			"color":"#188E00",
-			"index":9
+		"black_concrete_powder":{
+			"color":"#1b1c21",
+			"index":248
+		},
+		"black_glazed_terracotta":{
+			"color":"#562224",
+			"index":242
+		},
+		"black_shulker_box":{
+			"color":"#1a1a1e",
+			"index":248
 		},
 		"black_stained_glass":{
 			"color":"#191919",
-			"index":10
-		},
-		"black_stained_glass_pane":{
-			"color":"#191919",
-			"index":10
-		},
-		"black_shulker_box":{
-			"color":"#19191D",
-			"index":11
-		},
-		"black_concrete_powder":{
-			"color":"#191A1F",
-			"index":12
-		},
-		"lapis_block":{
-			"color":"#1E438C",
-			"index":13
-		},
-		"respawn_anchor":{
-			"color":"#200A3C",
-			"index":14
-		},
-		"crying_obsidian":{
-			"color":"#200A3C",
-			"index":14
-		},
-		"light_blue_concrete":{
-			"color":"#2389C6",
-			"index":15
-		},
-		"cyan_concrete_powder":{
-			"color":"#24939D",
-			"index":16
+			"index":248
 		},
 		"black_terracotta":{
-			"color":"#251610",
-			"index":17
-		},
-		"blackstone":{
-			"color":"#2A2328",
-			"index":18
-		},
-		"blackstone_slab":{
-			"color":"#2A2328",
-			"index":18
-		},
-		"blackstone_stairs":{
-			"color":"#2A2328",
-			"index":18
-		},
-		"emerald_block":{
-			"color":"#2ACB57",
-			"index":19
-		},
-		"blue_shulker_box":{
-			"color":"#2B2D8C",
-			"index":20
-		},
-		"stripped_warped_hyphae":{
-			"color":"#2B6863",
-			"index":21
-		},
-		"stripped_warped_stem":{
-			"color":"#2B6863",
-			"index":21
-		},
-		"warped_planks":{
-			"color":"#2B6863",
-			"index":21
-		},
-		"warped_slab":{
-			"color":"#2B6863",
-			"index":21
-		},
-		"warped_stairs":{
-			"color":"#2B6863",
-			"index":21
-		},
-		"warped_nylium":{
-			"color":"#2B7265",
-			"index":22
-		},
-		"chiseled_nether_bricks":{
-			"color":"#2C151A",
-			"index":23
-		},
-		"cracked_nether_bricks":{
-			"color":"#2C151A",
-			"index":23
-		},
-		"nether_brick_slab":{
-			"color":"#2C151A",
-			"index":23
-		},
-		"nether_brick_stairs":{
-			"color":"#2C151A",
-			"index":23
-		},
-		"nether_bricks":{
-			"color":"#2C151A",
-			"index":23
-		},
-		"blue_concrete":{
-			"color":"#2C2E8F",
-			"index":24
-		},
-		"blue_glazed_terracotta":{
-			"color":"#2F408B",
-			"index":25
-		},
-		"tube_coral_block":{
-			"color":"#3157CE",
-			"index":26
-		},
-		"light_blue_shulker_box":{
-			"color":"#31A3D4",
-			"index":27
-		},
-		"blue_stained_glass":{
-			"color":"#334CB2",
-			"index":28
-		},
-		"blue_stained_glass_pane":{
-			"color":"#334CB2",
-			"index":28
-		},
-		"dark_prismarine":{
-			"color":"#335B4B",
-			"index":29
-		},
-		"dark_prismarine_slab":{
-			"color":"#335B4B",
-			"index":29
-		},
-		"dark_prismarine_stairs":{
-			"color":"#335B4B",
-			"index":29
-		},
-		"cyan_glazed_terracotta":{
-			"color":"#34767D",
-			"index":30
-		},
-		"chiseled_polished_blackst":{
-			"color":"#353038",
-			"index":31
-		},
-		"cracked_polished_blacksto":{
-			"color":"#353038",
-			"index":31
-		},
-		"polished_blackstone":{
-			"color":"#353038",
-			"index":31
-		},
-		"polished_blackstone_brick":{
-			"color":"#353038",
-			"index":31
-		},
-		"polished_blackstone_slab":{
-			"color":"#353038",
-			"index":31
-		},
-		"polished_blackstone_stair":{
-			"color":"#353038",
-			"index":31
-		},
-		"blue_wool":{
-			"color":"#35399D",
-			"index":32
-		},
-		"gray_concrete":{
-			"color":"#36393D",
-			"index":33
-		},
-		"gray_shulker_box":{
-			"color":"#373A3E",
-			"index":34
-		},
-		"gilded_blackstone":{
-			"color":"#382B26",
-			"index":35
-		},
-		"gray_terracotta":{
-			"color":"#392A23",
-			"index":36
-		},
-		"spruce_log":{
-			"color":"#3A2510",
-			"index":37
-		},
-		"spruce_wood":{
-			"color":"#3A2510",
-			"index":37
-		},
-		"warped_hyphae":{
-			"color":"#3A3A4D",
-			"index":38
-		},
-		"warped_stem":{
-			"color":"#3A3A4D",
-			"index":38
-		},
-		"light_blue_wool":{
-			"color":"#3AAFD9",
-			"index":39
-		},
-		"dark_oak_log":{
-			"color":"#3C2E1A",
-			"index":40
-		},
-		"dark_oak_wood":{
-			"color":"#3C2E1A",
-			"index":40
-		},
-		"gray_wool":{
-			"color":"#3E4447",
-			"index":41
-		},
-		"stripped_dark_oak_log":{
-			"color":"#422B14",
-			"index":42
-		},
-		"stripped_dark_oak_wood":{
-			"color":"#422B14",
-			"index":42
-		},
-		"dark_oak_planks":{
-			"color":"#422B14",
-			"index":42
-		},
-		"dark_oak_slab":{
-			"color":"#422B14",
-			"index":42
-		},
-		"dark_oak_stairs":{
-			"color":"#422B14",
-			"index":42
-		},
-		"netherite_block":{
-			"color":"#423D3F",
-			"index":43
-		},
-		"black_glazed_terracotta":{
-			"color":"#431E20",
-			"index":44
-		},
-		"red_nether_brick_slab":{
-			"color":"#450709",
-			"index":45
-		},
-		"red_nether_brick_stairs":{
-			"color":"#450709",
-			"index":45
-		},
-		"red_nether_bricks":{
-			"color":"#450709",
-			"index":45
-		},
-		"cartography_table":{
-			"color":"#452B14",
-			"index":46
-		},
-		"blue_concrete_powder":{
-			"color":"#4649A6",
-			"index":47
-		},
-		"polished_basalt":{
-			"color":"#49484D",
-			"index":48
-		},
-		"basalt":{
-			"color":"#49484D",
-			"index":48
-		},
-		"green_concrete":{
-			"color":"#495B24",
-			"index":49
-		},
-		"blue_terracotta":{
-			"color":"#4A3B5B",
-			"index":50
-		},
-		"light_blue_concrete_powde":{
-			"color":"#4AB4D5",
-			"index":51
-		},
-		"soul_soil":{
-			"color":"#4B392E",
-			"index":52
-		},
-		"gray_stained_glass":{
-			"color":"#4C4C4C",
-			"index":53
-		},
-		"gray_stained_glass_pane":{
-			"color":"#4C4C4C",
-			"index":53
-		},
-		"gray_concrete_powder":{
-			"color":"#4C5154",
-			"index":54
-		},
-		"green_terracotta":{
-			"color":"#4C532A",
-			"index":55
-		},
-		"cyan_stained_glass":{
-			"color":"#4C7F99",
-			"index":56
-		},
-		"cyan_stained_glass_pane":{
-			"color":"#4C7F99",
-			"index":56
-		},
-		"brown_terracotta":{
-			"color":"#4D3323",
-			"index":57
-		},
-		"cactus":{
-			"color":"#4E7328",
-			"index":58
-		},
-		"green_shulker_box":{
-			"color":"#4F641F",
-			"index":59
-		},
-		"smithing_table":{
-			"color":"#505051",
-			"index":60
+			"color":"#251710",
+			"index":248
+		},
+		"black_wool":{
+			"color":"#16171b",
+			"index":249
 		},
 		"blast_furnace":{
-			"color":"#505051",
-			"index":60
+			"color":"#717171",
+			"index":227
 		},
-		"soul_sand":{
-			"color":"#513E32",
-			"index":61
-		},
-		"gray_glazed_terracotta":{
-			"color":"#535A5D",
-			"index":62
-		},
-		"green_wool":{
-			"color":"#546D1B",
-			"index":63
-		},
-		"jungle_log":{
-			"color":"#554319",
-			"index":64
-		},
-		"jungle_wood":{
-			"color":"#554319",
-			"index":64
-		},
-		"bedrock":{
-			"color":"#555555",
-			"index":65
-		},
-		"cyan_terracotta":{
-			"color":"#565B5B",
-			"index":66
-		},
-		"note_block":{
-			"color":"#583A28",
-			"index":67
-		},
-		"jukebox":{
-			"color":"#583A28",
-			"index":67
-		},
-		"podzol":{
-			"color":"#5B3F18",
-			"index":68
-		},
-		"crimson_stem":{
-			"color":"#5C191D",
-			"index":69
-		},
-		"light_blue_glazed_terraco":{
-			"color":"#5EA4D0",
-			"index":70
-		},
-		"lime_concrete":{
-			"color":"#5EA818",
-			"index":71
-		},
-		"redstone_lamp":{
-			"color":"#5F361E",
-			"index":72
-		},
-		"ancient_debris":{
-			"color":"#5F3F37",
-			"index":73
-		},
-		"brown_concrete":{
-			"color":"#603B1F",
-			"index":74
-		},
-		"netherrack":{
-			"color":"#612626",
-			"index":75
-		},
-		"green_concrete_powder":{
-			"color":"#61772C",
-			"index":76
-		},
-		"diamond_block":{
-			"color":"#62EDE4",
-			"index":77
-		},
-		"lapis_ore":{
-			"color":"#636E84",
-			"index":78
-		},
-		"prismarine":{
-			"color":"#639C97",
-			"index":79
-		},
-		"prismarine_slab":{
-			"color":"#639C97",
-			"index":79
-		},
-		"prismarine_stairs":{
-			"color":"#639C97",
-			"index":79
-		},
-		"prismarine_brick_slab":{
-			"color":"#63AB9E",
-			"index":80
-		},
-		"prismarine_brick_stairs":{
-			"color":"#63AB9E",
-			"index":80
-		},
-		"prismarine_bricks":{
-			"color":"#63AB9E",
-			"index":80
-		},
-		"lime_shulker_box":{
-			"color":"#63AC17",
-			"index":81
-		},
-		"purple_concrete":{
-			"color":"#641F9C",
-			"index":82
-		},
-		"stripped_crimson_hyphae":{
-			"color":"#653046",
-			"index":83
-		},
-		"stripped_crimson_stem":{
-			"color":"#653046",
-			"index":83
-		},
-		"crimson_planks":{
-			"color":"#653046",
-			"index":83
-		},
-		"crimson_slab":{
-			"color":"#653046",
-			"index":83
-		},
-		"crimson_stairs":{
-			"color":"#653046",
-			"index":83
-		},
-		"brown_stained_glass":{
-			"color":"#664C33",
-			"index":84
-		},
-		"brown_stained_glass_pane":{
-			"color":"#664C33",
-			"index":84
-		},
-		"green_stained_glass":{
-			"color":"#667F33",
-			"index":85
-		},
-		"green_stained_glass_pane":{
-			"color":"#667F33",
-			"index":85
-		},
-		"light_blue_stained_glass":{
-			"color":"#6699D8",
-			"index":86
-		},
-		"light_blue_stained_glass_":{
-			"color":"#6699D8",
-			"index":86
-		},
-		"purple_shulker_box":{
-			"color":"#67209C",
-			"index":87
-		},
-		"acacia_log":{
-			"color":"#676056",
-			"index":88
-		},
-		"acacia_wood":{
-			"color":"#676056",
-			"index":88
-		},
-		"lime_terracotta":{
-			"color":"#677534",
-			"index":89
-		},
-		"brown_shulker_box":{
-			"color":"#6A4223",
-			"index":90
-		},
-		"barrel":{
-			"color":"#6B5132",
-			"index":91
-		},
-		"purple_glazed_terracotta":{
-			"color":"#6D3098",
-			"index":92
-		},
-		"oak_log":{
-			"color":"#6D5532",
-			"index":93
-		},
-		"oak_wood":{
-			"color":"#6D5532",
-			"index":93
-		},
-		"dispenser":{
-			"color":"#6E6D6D",
-			"index":94
-		},
-		"dropper":{
-			"color":"#6E6D6D",
-			"index":94
-		},
-		"piston":{
-			"color":"#6E6D6D",
-			"index":94
-		},
-		"sticky_piston":{
-			"color":"#6E6D6D",
-			"index":94
-		},
-		"furnace":{
-			"color":"#6E6D6D",
-			"index":94
-		},
-		"infested_cobblestone":{
-			"color":"#6E765E",
-			"index":95
-		},
-		"mossy_cobblestone":{
-			"color":"#6E765E",
-			"index":95
-		},
-		"mossy_cobblestone_slab":{
-			"color":"#6E765E",
-			"index":95
-		},
-		"mossy_cobblestone_stairs":{
-			"color":"#6E765E",
-			"index":95
-		},
-		"mycelium":{
-			"color":"#6F6265",
-			"index":96
-		},
-		"slime_block":{
-			"color":"#6FC05B",
-			"index":97
-		},
-		"lime_wool":{
-			"color":"#70B919",
+		"blue_concrete":{
+			"color":"#2d2f8f",
 			"index":98
 		},
-		"light_blue_terracotta":{
-			"color":"#716C89",
-			"index":99
-		},
-		"nether_wart_block":{
-			"color":"#720202",
-			"index":100
-		},
-		"brown_wool":{
-			"color":"#724728",
-			"index":101
-		},
-		"stripped_spruce_log":{
-			"color":"#725430",
-			"index":102
-		},
-		"stripped_spruce_wood":{
-			"color":"#725430",
-			"index":102
-		},
-		"spruce_planks":{
-			"color":"#725430",
-			"index":102
-		},
-		"spruce_stairs":{
-			"color":"#725430",
-			"index":102
-		},
-		"melon":{
-			"color":"#72921E",
+		"blue_concrete_powder":{
+			"color":"#464aa7",
 			"index":103
 		},
-		"nether_gold_ore":{
-			"color":"#73362A",
-			"index":104
-		},
-		"infested_mossy_stone_bric":{
-			"color":"#737969",
-			"index":105
-		},
-		"mossy_stone_brick_slab":{
-			"color":"#737969",
-			"index":105
-		},
-		"mossy_stone_brick_stairs":{
-			"color":"#737969",
-			"index":105
-		},
-		"mossy_stone_bricks":{
-			"color":"#737969",
-			"index":105
-		},
-		"coal_ore":{
-			"color":"#747474",
-			"index":106
+		"blue_glazed_terracotta":{
+			"color":"#314b96",
+			"index":103
 		},
 		"blue_ice":{
-			"color":"#74A7FD",
-			"index":107
-		},
-		"nether_quartz_ore":{
-			"color":"#75413E",
-			"index":108
-		},
-		"green_glazed_terracotta":{
-			"color":"#758E43",
-			"index":109
-		},
-		"purple_terracotta":{
-			"color":"#764656",
-			"index":110
-		},
-		"coarse_dirt":{
-			"color":"#77553B",
-			"index":111
-		},
-		"brown_glazed_terracotta":{
-			"color":"#776A55",
-			"index":112
-		},
-		"lodestone":{
-			"color":"#77777B",
+			"color":"#75a8fd",
 			"index":113
 		},
-		"purple_wool":{
-			"color":"#792AAC",
-			"index":114
+		"blue_shulker_box":{
+			"color":"#2c2e8d",
+			"index":97
 		},
-		"infested_stone_bricks":{
-			"color":"#7A797A",
-			"index":115
+		"blue_stained_glass":{
+			"color":"#334cb2",
+			"index":103
 		},
-		"chiseled_stone_bricks":{
-			"color":"#7A797A",
-			"index":115
+		"blue_terracotta":{
+			"color":"#4a3c5b",
+			"index":239
 		},
-		"cracked_stone_bricks":{
-			"color":"#7A797A",
-			"index":115
+		"blue_wool":{
+			"color":"#353a9e",
+			"index":100
 		},
-		"infested_chiseled_stone_b":{
-			"color":"#7A797A",
-			"index":115
+		"bone_block":{
+			"color":"#e5e2d0",
+			"index":6
 		},
-		"infested_cracked_stone_br":{
-			"color":"#7A797A",
-			"index":115
+		"bookshelf":{
+			"color":"#836a4b",
+			"index":227
 		},
-		"stone_brick_slab":{
-			"color":"#7A797A",
-			"index":115
+		"brain_coral_block":{
+			"color":"#d05fa1",
+			"index":51
 		},
-		"stone_brick_stairs":{
-			"color":"#7A797A",
-			"index":115
+		"bricks":{
+			"color":"#986558",
+			"index":227
 		},
-		"stone_bricks":{
-			"color":"#7A797A",
-			"index":115
-		},
-		"stone_slab":{
-			"color":"#7A797A",
-			"index":115
-		},
-		"stone_stairs":{
-			"color":"#7A797A",
-			"index":115
-		},
-		"end_portal_frame":{
-			"color":"#7A8463",
-			"index":116
-		},
-		"light_gray_shulker_box":{
-			"color":"#7C7C73",
-			"index":117
+		"brown_concrete":{
+			"color":"#603c20",
+			"index":238
 		},
 		"brown_concrete_powder":{
-			"color":"#7D5435",
+			"color":"#7e5536",
+			"index":231
+		},
+		"brown_glazed_terracotta":{
+			"color":"#876e5f",
+			"index":226
+		},
+		"brown_mushroom":{
+			"color":"#3a2c23",
+			"index":243
+		},
+		"brown_mushroom_block":{
+			"color":"#957051",
+			"index":225
+		},
+		"brown_shulker_box":{
+			"color":"#6b4224",
+			"index":236
+		},
+		"brown_stained_glass":{
+			"color":"#664c33",
+			"index":235
+		},
+		"brown_terracotta":{
+			"color":"#4d3324",
+			"index":241
+		},
+		"brown_wool":{
+			"color":"#734829",
+			"index":234
+		},
+		"bubble_coral_block":{
+			"color":"#a81da3",
+			"index":72
+		},
+		"budding_amethyst":{
+			"color":"#8c67be",
+			"index":71
+		},
+		"calcite":{
+			"color":"#e0e1de",
+			"index":7
+		},
+		"cartography_table":{
+			"color":"#462d15",
+			"index":242
+		},
+		"carved_pumpkin":{
+			"color":"#a56519",
+			"index":208
+		},
+		"cauldron":{
+			"color":"#4c4b4c",
+			"index":236
+		},
+		"chiseled_deepslate":{
+			"color":"#393939",
+			"index":241
+		},
+		"chiseled_nether_bricks":{
+			"color":"#32191e",
+			"index":247
+		},
+		"chiseled_polished_blackstone":{
+			"color":"#39353d",
+			"index":241
+		},
+		"chiseled_quartz_block":{
+			"color":"#e8e3da",
+			"index":6
+		},
+		"chiseled_red_sandstone":{
+			"color":"#b8621e",
+			"index":210
+		},
+		"chiseled_sandstone":{
+			"color":"#d9cc9e",
+			"index":12
+		},
+		"chiseled_stone_bricks":{
+			"color":"#7a797a",
+			"index":225
+		},
+		"chorus_flower":{
+			"color":"#654762",
+			"index":235
+		},
+		"chorus_plant":{
+			"color":"#614061",
+			"index":236
+		},
+		"clay":{
+			"color":"#a1a7b4",
+			"index":21
+		},
+		"coal_block":{
+			"color":"#121212",
+			"index":250
+		},
+		"coal_ore":{
+			"color":"#6e6e6e",
+			"index":228
+		},
+		"coarse_dirt":{
+			"color":"#7c593e",
+			"index":231
+		},
+		"cobbled_deepslate":{
+			"color":"#505053",
+			"index":235
+		},
+		"cobblestone":{
+			"color":"#838383",
+			"index":30
+		},
+		"composter":{
+			"color":"#764c26",
+			"index":234
+		},
+		"copper_block":{
+			"color":"#c26d51",
+			"index":213
+		},
+		"copper_ore":{
+			"color":"#817f7a",
+			"index":31
+		},
+		"cracked_deepslate_bricks":{
+			"color":"#454545",
+			"index":238
+		},
+		"cracked_deepslate_tiles":{
+			"color":"#373737",
+			"index":241
+		},
+		"cracked_nether_bricks":{
+			"color":"#2b1519",
+			"index":248
+		},
+		"cracked_polished_blackstone_bricks":{
+			"color":"#2f2a31",
+			"index":244
+		},
+		"cracked_stone_bricks":{
+			"color":"#787778",
+			"index":225
+		},
+		"crafting_table":{
+			"color":"#8e7349",
+			"index":225
+		},
+		"crimson_nylium":{
+			"color":"#852626",
+			"index":37
+		},
+		"crimson_planks":{
+			"color":"#683248",
+			"index":238
+		},
+		"crimson_stem":{
+			"color":"#611d25",
+			"index":242
+		},
+		"crying_obsidian":{
+			"color":"#301058",
+			"index":255
+		},
+		"cut_copper":{
+			"color":"#c16c53",
+			"index":214
+		},
+		"cut_red_sandstone":{
+			"color":"#be6621",
+			"index":209
+		},
+		"cut_sandstone":{
+			"color":"#dacfa1",
+			"index":11
+		},
+		"cyan_concrete":{
+			"color":"#157788",
+			"index":228
+		},
+		"cyan_concrete_powder":{
+			"color":"#25949d",
+			"index":119
+		},
+		"cyan_glazed_terracotta":{
+			"color":"#4a8086",
+			"index":225
+		},
+		"cyan_shulker_box":{
+			"color":"#147a88",
+			"index":227
+		},
+		"cyan_stained_glass":{
+			"color":"#4c7f99",
+			"index":109
+		},
+		"cyan_terracotta":{
+			"color":"#575b5b",
+			"index":232
+		},
+		"cyan_wool":{
+			"color":"#158a91",
+			"index":224
+		},
+		"dark_oak_leaves":{
+			"color":"#808180",
+			"index":169
+		},
+		"dark_oak_log":{
+			"color":"#3d2f1b",
+			"index":243
+		},
+		"dark_oak_planks":{
+			"color":"#442c15",
+			"index":243
+		},
+		"dark_prismarine":{
+			"color":"#355f4e",
+			"index":233
+		},
+		"daylight_detector":{
+			"color":"#443824",
+			"index":241
+		},
+		"dead_brain_coral_block":{
+			"color":"#7e7774",
+			"index":225
+		},
+		"dead_bubble_coral_block":{
+			"color":"#857d79",
+			"index":31
+		},
+		"dead_fire_coral_block":{
+			"color":"#857d79",
+			"index":31
+		},
+		"dead_horn_coral_block":{
+			"color":"#88807c",
+			"index":31
+		},
+		"dead_tube_coral_block":{
+			"color":"#847d79",
+			"index":31
+		},
+		"deepslate":{
+			"color":"#535355",
+			"index":234
+		},
+		"deepslate_bricks":{
+			"color":"#4a4a4b",
+			"index":236
+		},
+		"deepslate_coal_ore":{
+			"color":"#505051",
+			"index":235
+		},
+		"deepslate_copper_ore":{
+			"color":"#64625c",
+			"index":230
+		},
+		"deepslate_diamond_ore":{
+			"color":"#597574",
+			"index":227
+		},
+		"deepslate_emerald_ore":{
+			"color":"#58755f",
+			"index":227
+		},
+		"deepslate_gold_ore":{
+			"color":"#827055",
+			"index":226
+		},
+		"deepslate_iron_ore":{
+			"color":"#746962",
+			"index":228
+		},
+		"deepslate_lapis_ore":{
+			"color":"#565e7d",
+			"index":231
+		},
+		"deepslate_redstone_ore":{
+			"color":"#755051",
+			"index":233
+		},
+		"deepslate_tiles":{
+			"color":"#393939",
+			"index":241
+		},
+		"diamond_block":{
+			"color":"#6eeee5",
+			"index":127
+		},
+		"diamond_ore":{
+			"color":"#7d9290",
+			"index":27
+		},
+		"diorite":{
+			"color":"#c0c0c0",
+			"index":15
+		},
+		"dirt":{
+			"color":"#896345",
+			"index":228
+		},
+		"dirt_path":{
+			"color":"#957a41",
+			"index":224
+		},
+		"dried_kelp":{
+			"color":"#2f3726",
+			"index":242
+		},
+		"dripstone_block":{
+			"color":"#886e5d",
+			"index":226
+		},
+		"dropper":{
+			"color":"#727171",
+			"index":227
+		},
+		"emerald_block":{
+			"color":"#37ce61",
+			"index":142
+		},
+		"emerald_ore":{
+			"color":"#758d79",
+			"index":29
+		},
+		"end_stone":{
+			"color":"#dce09f",
+			"index":186
+		},
+		"end_stone_bricks":{
+			"color":"#dbe2a4",
+			"index":185
+		},
+		"exposed_copper":{
+			"color":"#a37e69",
+			"index":29
+		},
+		"exposed_cut_copper":{
+			"color":"#9d7b66",
+			"index":30
+		},
+		"farmland":{
+			"color":"#542e13",
+			"index":241
+		},
+		"fire_coral_block":{
+			"color":"#a7242f",
+			"index":37
+		},
+		"fletching_table":{
+			"color":"#b5a479",
+			"index":21
+		},
+		"frosted_ice":{
+			"color":"#8db6fd",
+			"index":115
+		},
+		"furnace":{
+			"color":"#727171",
+			"index":227
+		},
+		"gilded_blackstone":{
+			"color":"#45362c",
+			"index":241
+		},
+		"glowstone":{
+			"color":"#b5936a",
+			"index":25
+		},
+		"gold_block":{
+			"color":"#f7d244",
+			"index":195
+		},
+		"gold_ore":{
+			"color":"#978a73",
+			"index":28
+		},
+		"granite":{
+			"color":"#976958",
+			"index":226
+		},
+		"grass_block":{
+			"color":"#949494",
+			"index":169
+		},
+		"gravel":{
+			"color":"#858180",
+			"index":30
+		},
+		"gray_concrete":{
+			"color":"#373a3e",
+			"index":241
+		},
+		"gray_concrete_powder":{
+			"color":"#4d5155",
+			"index":235
+		},
+		"gray_glazed_terracotta":{
+			"color":"#5a6063",
+			"index":231
+		},
+		"gray_shulker_box":{
+			"color":"#383b3f",
+			"index":240
+		},
+		"gray_stained_glass":{
+			"color":"#4c4c4c",
+			"index":236
+		},
+		"gray_terracotta":{
+			"color":"#3a2a24",
+			"index":244
+		},
+		"gray_wool":{
+			"color":"#3f4548",
+			"index":238
+		},
+		"green_concrete":{
+			"color":"#495b24",
+			"index":234
+		},
+		"green_concrete_powder":{
+			"color":"#61772d",
+			"index":227
+		},
+		"green_glazed_terracotta":{
+			"color":"#7d945e",
+			"index":28
+		},
+		"green_shulker_box":{
+			"color":"#4f6520",
+			"index":232
+		},
+		"green_stained_glass":{
+			"color":"#667f33",
+			"index":225
+		},
+		"green_terracotta":{
+			"color":"#4c532a",
+			"index":235
+		},
+		"green_wool":{
+			"color":"#556e1c",
+			"index":230
+		},
+		"hay_block":{
+			"color":"#a88c27",
+			"index":200
+		},
+		"honeycomb_block":{
+			"color":"#e69931",
+			"index":202
+		},
+		"honey_block":{
+			"color":"#fbbe45",
+			"index":199
+		},
+		"horn_coral_block":{
+			"color":"#d9ca43",
+			"index":194
+		},
+		"ice":{
+			"color":"#92b8fe",
+			"index":115
+		},
+		"iron_block":{
+			"color":"#dddddd",
+			"index":7
+		},
+		"iron_ore":{
+			"color":"#8b837c",
+			"index":30
+		},
+		"jigsaw":{
+			"color":"#5a4d5a",
+			"index":235
+		},
+		"jukebox":{
+			"color":"#603e2b",
+			"index":238
+		},
+		"jungle_leaves":{
+			"color":"#85827b",
+			"index":169
+		},
+		"jungle_log":{
+			"color":"#57451a",
+			"index":237
+		},
+		"jungle_planks":{
+			"color":"#a37553",
+			"index":31
+		},
+		"lapis_block":{
+			"color":"#1f448d",
+			"index":103
+		},
+		"lapis_ore":{
+			"color":"#737992",
+			"index":225
+		},
+		"large_amethyst_bud":{
+			"color":"#5e4c71",
+			"index":234
+		},
+		"lava":{
+			"color":"#d96e21",
+			"index":208
+		},
+		"light_blue_concrete":{
+			"color":"#2489c7",
+			"index":112
+		},
+		"light_blue_concrete_powder":{
+			"color":"#4bb5d5",
+			"index":119
+		},
+		"light_blue_glazed_terracotta":{
+			"color":"#7ab1d4",
+			"index":117
+		},
+		"light_blue_shulker_box":{
+			"color":"#32a5d4",
+			"index":117
+		},
+		"light_blue_stained_glass":{
+			"color":"#6699d8",
+			"index":112
+		},
+		"light_blue_terracotta":{
+			"color":"#726d8a",
+			"index":227
+		},
+		"light_blue_wool":{
+			"color":"#3bb0da",
 			"index":118
 		},
 		"light_gray_concrete":{
-			"color":"#7D7D73",
-			"index":119
+			"color":"#7d7d73",
+			"index":224
 		},
-		"emerald_ore":{
-			"color":"#7D7D7D",
-			"index":120
+		"light_gray_concrete_powder":{
+			"color":"#9b9b95",
+			"index":24
 		},
-		"infested_stone":{
-			"color":"#7D7D7D",
-			"index":120
+		"light_gray_glazed_terracotta":{
+			"color":"#9dabac",
+			"index":21
 		},
-		"stone":{
-			"color":"#7D7D7D",
-			"index":120
-		},
-		"diamond_ore":{
-			"color":"#7D8E8D",
-			"index":121
-		},
-		"lime_concrete_powder":{
-			"color":"#7DBD29",
-			"index":122
-		},
-		"purple_stained_glass":{
-			"color":"#7F3FB2",
-			"index":123
-		},
-		"purple_stained_glass_pane":{
-			"color":"#7F3FB2",
-			"index":123
-		},
-		"smoker":{
-			"color":"#7F7F7F",
-			"index":124
-		},
-		"cobblestone":{
-			"color":"#7F7F7F",
-			"index":124
-		},
-		"cobblestone_slab":{
-			"color":"#7F7F7F",
-			"index":124
-		},
-		"cobblestone_stairs":{
-			"color":"#7F7F7F",
-			"index":124
-		},
-		"lime_stained_glass":{
-			"color":"#7FCC19",
-			"index":125
-		},
-		"lime_stained_glass_pane":{
-			"color":"#7FCC19",
-			"index":125
-		},
-		"repeating_command_block":{
-			"color":"#816FB0",
-			"index":126
-		},
-		"crimson_nylium":{
-			"color":"#821F1F",
-			"index":127
-		},
-		"purple_concrete_powder":{
-			"color":"#8337B1",
-			"index":128
-		},
-		"dead_brain_coral_block":{
-			"color":"#837B77",
-			"index":129
-		},
-		"dead_bubble_coral_block":{
-			"color":"#837B77",
-			"index":129
-		},
-		"dead_fire_coral_block":{
-			"color":"#837B77",
-			"index":129
-		},
-		"dead_horn_coral_block":{
-			"color":"#837B77",
-			"index":129
-		},
-		"dead_tube_coral_block":{
-			"color":"#837B77",
-			"index":129
-		},
-		"dried_kelp_block":{
-			"color":"#837B77",
-			"index":129
-		},
-		"gravel":{
-			"color":"#837F7E",
-			"index":130
-		},
-		"polished_andesite":{
-			"color":"#848685",
-			"index":131
-		},
-		"polished_andesite_slab":{
-			"color":"#848685",
-			"index":131
-		},
-		"polished_andesite_stairs":{
-			"color":"#848685",
-			"index":131
-		},
-		"chain_command_block":{
-			"color":"#84A596",
-			"index":132
-		},
-		"redstone_ore":{
-			"color":"#856B6B",
-			"index":133
-		},
-		"farmland":{
-			"color":"#866043",
-			"index":134
-		},
-		"dirt":{
-			"color":"#866043",
-			"index":134
-		},
-		"light_gray_terracotta":{
-			"color":"#876A61",
-			"index":135
-		},
-		"iron_ore":{
-			"color":"#88827F",
-			"index":136
-		},
-		"andesite":{
-			"color":"#888888",
-			"index":137
-		},
-		"andesite_slab":{
-			"color":"#888888",
-			"index":137
-		},
-		"andesite_stairs":{
-			"color":"#888888",
-			"index":137
-		},
-		"shulker_box":{
-			"color":"#8B608B",
-			"index":138
-		},
-		"red_shulker_box":{
-			"color":"#8C1F1E",
-			"index":139
-		},
-		"packed_ice":{
-			"color":"#8DB4FA",
-			"index":140
-		},
-		"red_concrete":{
-			"color":"#8E2020",
-			"index":141
-		},
-		"magma_block":{
-			"color":"#8E3F1F",
-			"index":142
-		},
-		"light_gray_wool":{
-			"color":"#8E8E86",
-			"index":143
-		},
-		"red_terracotta":{
-			"color":"#8F3D2E",
-			"index":144
-		},
-		"gold_ore":{
-			"color":"#8F8C7D",
-			"index":145
-		},
-		"light_gray_glazed_terraco":{
-			"color":"#90A6A7",
-			"index":146
-		},
-		"ice":{
-			"color":"#91B7FD",
-			"index":147
-		},
-		"grass_path":{
-			"color":"#947941",
-			"index":148
-		},
-		"magenta_terracotta":{
-			"color":"#95586C",
-			"index":149
-		},
-		"granite":{
-			"color":"#956755",
-			"index":150
-		},
-		"granite_slab":{
-			"color":"#956755",
-			"index":150
-		},
-		"granite_stairs":{
-			"color":"#956755",
-			"index":150
-		},
-		"brown_mushroom_block":{
-			"color":"#956F51",
-			"index":151
-		},
-		"brick_slab":{
-			"color":"#966153",
-			"index":152
-		},
-		"brick_stairs":{
-			"color":"#966153",
-			"index":152
-		},
-		"bricks":{
-			"color":"#966153",
-			"index":152
-		},
-		"terracotta":{
-			"color":"#985E43",
-			"index":153
-		},
-		"red_stained_glass":{
-			"color":"#993333",
-			"index":154
-		},
-		"red_stained_glass_pane":{
-			"color":"#993333",
-			"index":154
+		"light_gray_shulker_box":{
+			"color":"#7e7e75",
+			"index":224
 		},
 		"light_gray_stained_glass":{
 			"color":"#999999",
-			"index":155
+			"index":24
 		},
-		"light_gray_stained_glass_":{
-			"color":"#999999",
-			"index":155
-		},
-		"polished_granite":{
-			"color":"#9A6A59",
-			"index":156
-		},
-		"polished_granite_slab":{
-			"color":"#9A6A59",
-			"index":156
-		},
-		"polished_granite_stairs":{
-			"color":"#9A6A59",
-			"index":156
-		},
-		"orange_glazed_terracotta":{
-			"color":"#9A935B",
-			"index":157
-		},
-		"light_gray_concrete_powde":{
-			"color":"#9A9A94",
-			"index":158
-		},
-		"beehive":{
-			"color":"#9D7E4B",
-			"index":159
-		},
-		"smooth_stone":{
-			"color":"#9E9E9E",
-			"index":160
-		},
-		"smooth_stone_slab":{
-			"color":"#9E9E9E",
-			"index":160
-		},
-		"red_wool":{
-			"color":"#A02722",
-			"index":161
-		},
-		"stripped_jungle_log":{
-			"color":"#A07350",
-			"index":162
-		},
-		"stripped_jungle_wood":{
-			"color":"#A07350",
-			"index":162
-		},
-		"jungle_planks":{
-			"color":"#A07350",
-			"index":162
-		},
-		"jungle_slab":{
-			"color":"#A07350",
-			"index":162
-		},
-		"jungle_stairs":{
-			"color":"#A07350",
-			"index":162
-		},
-		"clay":{
-			"color":"#A0A6B3",
-			"index":163
-		},
-		"pink_terracotta":{
-			"color":"#A14E4E",
-			"index":164
-		},
-		"orange_terracotta":{
-			"color":"#A15325",
-			"index":165
-		},
-		"bookshelf":{
-			"color":"#A2824E",
-			"index":166
-		},
-		"crafting_table":{
-			"color":"#A2824E",
-			"index":166
-		},
-		"petrified_oak_slab":{
-			"color":"#A2824E",
-			"index":166
-		},
-		"stripped_oak_log":{
-			"color":"#A2824E",
-			"index":166
-		},
-		"stripped_oak_wood":{
-			"color":"#A2824E",
-			"index":166
-		},
-		"oak_planks":{
-			"color":"#A2824E",
-			"index":166
-		},
-		"oak_slab":{
-			"color":"#A2824E",
-			"index":166
-		},
-		"oak_stairs":{
-			"color":"#A2824E",
-			"index":166
-		},
-		"lime_glazed_terracotta":{
-			"color":"#A2C537",
-			"index":167
-		},
-		"fire_coral_block":{
-			"color":"#A3232E",
-			"index":168
-		},
-		"bubble_coral_block":{
-			"color":"#A51AA2",
-			"index":169
-		},
-		"hay_block":{
-			"color":"#A68826",
-			"index":170
-		},
-		"red_concrete_powder":{
-			"color":"#A83632",
-			"index":171
-		},
-		"stripped_acacia_log":{
-			"color":"#A85A32",
-			"index":172
-		},
-		"stripped_acacia_wood":{
-			"color":"#A85A32",
-			"index":172
-		},
-		"acacia_planks":{
-			"color":"#A85A32",
-			"index":172
-		},
-		"acacia_slab":{
-			"color":"#A85A32",
-			"index":172
-		},
-		"acacia_stairs":{
-			"color":"#A85A32",
-			"index":172
-		},
-		"magenta_concrete":{
-			"color":"#A9309F",
-			"index":173
-		},
-		"purpur_block":{
-			"color":"#A97DA9",
-			"index":174
-		},
-		"purpur_pillar":{
-			"color":"#A97DA9",
-			"index":174
-		},
-		"purpur_slab":{
-			"color":"#A97DA9",
-			"index":174
-		},
-		"purpur_stairs":{
-			"color":"#A97DA9",
-			"index":174
-		},
-		"glowstone":{
-			"color":"#AB8354",
-			"index":175
-		},
-		"sea_lantern":{
-			"color":"#ACC7BE",
-			"index":176
-		},
-		"magenta_shulker_box":{
-			"color":"#AD36A3",
-			"index":177
-		},
-		"redstone_block":{
-			"color":"#AF1805",
-			"index":178
-		},
-		"magenta_stained_glass":{
-			"color":"#B24CD8",
-			"index":179
-		},
-		"magenta_stained_glass_pan":{
-			"color":"#B24CD8",
-			"index":179
-		},
-		"red_glazed_terracotta":{
-			"color":"#B53B35",
-			"index":180
-		},
-		"command_block":{
-			"color":"#B5886C",
-			"index":181
-		},
-		"tnt":{
-			"color":"#B65854",
-			"index":182
-		},
-		"yellow_terracotta":{
-			"color":"#BA8523",
-			"index":183
-		},
-		"diorite":{
-			"color":"#BCBCBC",
-			"index":184
-		},
-		"diorite_slab":{
-			"color":"#BCBCBC",
-			"index":184
-		},
-		"diorite_stairs":{
-			"color":"#BCBCBC",
-			"index":184
-		},
-		"white_glazed_terracotta":{
-			"color":"#BCD4CA",
-			"index":185
-		},
-		"magenta_wool":{
-			"color":"#BD44B3",
-			"index":186
-		},
-		"red_sandstone":{
-			"color":"#BD651F",
-			"index":187
-		},
-		"red_sandstone_slab":{
-			"color":"#BD651F",
-			"index":187
-		},
-		"red_sandstone_stairs":{
-			"color":"#BD651F",
-			"index":187
-		},
-		"smooth_red_sandstone":{
-			"color":"#BD651F",
-			"index":187
-		},
-		"smooth_red_sandstone_slab":{
-			"color":"#BD651F",
-			"index":187
-		},
-		"smooth_red_sandstone_stai":{
-			"color":"#BD651F",
-			"index":187
-		},
-		"chiseled_red_sandstone":{
-			"color":"#BD651F",
-			"index":187
-		},
-		"cut_red_sandstone":{
-			"color":"#BD651F",
-			"index":187
-		},
-		"cut_red_sandstone_slab":{
-			"color":"#BD651F",
-			"index":187
-		},
-		"red_sand":{
-			"color":"#BE6621",
-			"index":188
-		},
-		"magenta_concrete_powder":{
-			"color":"#C053B8",
-			"index":189
-		},
-		"fletching_table":{
-			"color":"#C0AF79",
-			"index":190
-		},
-		"stripped_birch_log":{
-			"color":"#C0AF79",
-			"index":190
-		},
-		"stripped_birch_wood":{
-			"color":"#C0AF79",
-			"index":190
-		},
-		"birch_planks":{
-			"color":"#C0AF79",
-			"index":190
-		},
-		"birch_slab":{
-			"color":"#C0AF79",
-			"index":190
-		},
-		"birch_stairs":{
-			"color":"#C0AF79",
-			"index":190
-		},
-		"polished_diorite":{
-			"color":"#C0C1C2",
-			"index":191
-		},
-		"polished_diorite_slab":{
-			"color":"#C0C1C2",
-			"index":191
-		},
-		"polished_diorite_stairs":{
-			"color":"#C0C1C2",
-			"index":191
-		},
-		"bee_nest":{
-			"color":"#C2974B",
-			"index":192
-		},
-		"carved_pumpkin":{
-			"color":"#C37218",
-			"index":193
-		},
-		"jack_o_lantern":{
-			"color":"#C37218",
-			"index":193
-		},
-		"pumpkin":{
-			"color":"#C37218",
-			"index":193
-		},
-		"sponge":{
-			"color":"#C3C04A",
-			"index":194
-		},
-		"wet_sponge":{
-			"color":"#C3C04A",
-			"index":194
-		},
-		"brain_coral_block":{
-			"color":"#CF5B9F",
-			"index":195
-		},
-		"white_concrete":{
-			"color":"#CFD5D6",
-			"index":196
-		},
-		"magenta_glazed_terracotta":{
-			"color":"#D064BF",
-			"index":197
-		},
-		"white_terracotta":{
-			"color":"#D1B2A1",
-			"index":198
-		},
-		"lava":{
-			"color":"#D45A12",
-			"index":199
-		},
-		"pink_concrete":{
-			"color":"#D5658E",
-			"index":200
-		},
-		"white_shulker_box":{
-			"color":"#D7DCDD",
-			"index":201
-		},
-		"orange_stained_glass":{
-			"color":"#D87F33",
-			"index":202
-		},
-		"orange_stained_glass_pane":{
-			"color":"#D87F33",
-			"index":202
-		},
-		"horn_coral_block":{
-			"color":"#D8C742",
-			"index":203
-		},
-		"birch_log":{
-			"color":"#D8D7D2",
-			"index":204
-		},
-		"birch_wood":{
-			"color":"#D8D7D2",
-			"index":204
-		},
-		"sandstone":{
-			"color":"#D9CE9F",
-			"index":205
-		},
-		"sandstone_slab":{
-			"color":"#D9CE9F",
-			"index":205
-		},
-		"sandstone_stairs":{
-			"color":"#D9CE9F",
-			"index":205
-		},
-		"smooth_sandstone":{
-			"color":"#D9CE9F",
-			"index":205
-		},
-		"smooth_sandstone_slab":{
-			"color":"#D9CE9F",
-			"index":205
-		},
-		"smooth_sandstone_stairs":{
-			"color":"#D9CE9F",
-			"index":205
-		},
-		"chiseled_sandstone":{
-			"color":"#D9CE9F",
-			"index":205
-		},
-		"cut_sandstone":{
-			"color":"#D9CE9F",
-			"index":205
-		},
-		"cut_sandstone_slab":{
-			"color":"#D9CE9F",
-			"index":205
-		},
-		"end_stone_brick_slab":{
-			"color":"#DAE0A2",
-			"index":206
-		},
-		"end_stone_brick_stairs":{
-			"color":"#DAE0A2",
-			"index":206
-		},
-		"end_stone_bricks":{
-			"color":"#DAE0A2",
-			"index":206
-		},
-		"sand":{
-			"color":"#DBCFA3",
-			"index":207
-		},
-		"end_stone":{
-			"color":"#DBDE9E",
-			"index":208
-		},
-		"iron_block":{
-			"color":"#DCDCDC",
-			"index":209
-		},
-		"orange_concrete":{
-			"color":"#E06100",
-			"index":210
-		},
-		"white_concrete_powder":{
-			"color":"#E1E3E3",
-			"index":211
-		},
-		"orange_concrete_powder":{
-			"color":"#E3831F",
-			"index":212
-		},
-		"pink_concrete_powder":{
-			"color":"#E499B5",
-			"index":213
-		},
-		"honeycomb_block":{
-			"color":"#E5941D",
-			"index":214
-		},
-		"bone_block":{
-			"color":"#E5E1CF",
-			"index":215
-		},
-		"yellow_stained_glass":{
-			"color":"#E5E533",
-			"index":216
-		},
-		"yellow_stained_glass_pane":{
-			"color":"#E5E533",
-			"index":216
-		},
-		"pink_shulker_box":{
-			"color":"#E6799D",
-			"index":217
-		},
-		"yellow_concrete_powder":{
-			"color":"#E8C736",
-			"index":218
-		},
-		"white_wool":{
-			"color":"#E9ECEC",
-			"index":219
-		},
-		"orange_shulker_box":{
-			"color":"#EA6A08",
-			"index":220
-		},
-		"yellow_glazed_terracotta":{
-			"color":"#EAC058",
-			"index":221
-		},
-		"pink_glazed_terracotta":{
-			"color":"#EB9AB5",
-			"index":222
-		},
-		"chiseled_quartz_block":{
-			"color":"#EBE5DE",
-			"index":223
-		},
-		"smooth_quartz":{
-			"color":"#EBE5DE",
-			"index":223
-		},
-		"smooth_quartz_slab":{
-			"color":"#EBE5DE",
-			"index":223
-		},
-		"smooth_quartz_stairs":{
-			"color":"#EBE5DE",
-			"index":223
-		},
-		"quartz_block":{
-			"color":"#EBE5DE",
-			"index":223
-		},
-		"quartz_bricks":{
-			"color":"#EBE5DE",
-			"index":223
-		},
-		"quartz_pillar":{
-			"color":"#EBE5DE",
-			"index":223
-		},
-		"quartz_slab":{
-			"color":"#EBE5DE",
-			"index":223
-		},
-		"quartz_stairs":{
-			"color":"#EBE5DE",
-			"index":223
-		},
-		"pink_wool":{
-			"color":"#ED8DAC",
-			"index":224
-		},
-		"orange_wool":{
-			"color":"#F07613",
-			"index":225
-		},
-		"shroomlight":{
-			"color":"#F09246",
-			"index":226
-		},
-		"yellow_concrete":{
-			"color":"#F0AF15",
+		"light_gray_terracotta":{
+			"color":"#876b62",
 			"index":227
 		},
-		"honey_block":{
-			"color":"#F19211",
-			"index":228
+		"light_gray_wool":{
+			"color":"#8e8e87",
+			"index":27
 		},
-		"pink_stained_glass":{
-			"color":"#F27FA5",
+		"lime_concrete":{
+			"color":"#5ea919",
+			"index":169
+		},
+		"lime_concrete_powder":{
+			"color":"#7ebd2a",
+			"index":175
+		},
+		"lime_glazed_terracotta":{
+			"color":"#aec84b",
+			"index":182
+		},
+		"lime_shulker_box":{
+			"color":"#65ae17",
+			"index":171
+		},
+		"lime_stained_glass":{
+			"color":"#7fcc19",
+			"index":175
+		},
+		"lime_terracotta":{
+			"color":"#687635",
+			"index":227
+		},
+		"lime_wool":{
+			"color":"#71b91a",
+			"index":173
+		},
+		"lodestone":{
+			"color":"#7c7d80",
+			"index":224
+		},
+		"loom":{
+			"color":"#966c4b",
+			"index":226
+		},
+		"magenta_concrete":{
+			"color":"#a9309f",
+			"index":71
+		},
+		"magenta_concrete_powder":{
+			"color":"#c155b9",
+			"index":56
+		},
+		"magenta_glazed_terracotta":{
+			"color":"#d26dc1",
+			"index":56
+		},
+		"magenta_shulker_box":{
+			"color":"#ae37a4",
+			"index":70
+		},
+		"magenta_stained_glass":{
+			"color":"#b24cd8",
+			"index":69
+		},
+		"magenta_terracotta":{
+			"color":"#96586d",
+			"index":46
+		},
+		"magenta_wool":{
+			"color":"#be46b4",
+			"index":55
+		},
+		"magma_block":{
+			"color":"#9d4b23",
+			"index":223
+		},
+		"mangrove_leaves":{
+			"color":"#7a7979",
+			"index":225
+		},
+		"mangrove_log":{
+			"color":"#554429",
+			"index":237
+		},
+		"mangrove_planks":{
+			"color":"#773831",
+			"index":236
+		},
+		"mangrove_propagule":{
+			"color":"#233f1f",
+			"index":241
+		},
+		"medium_amethyst_bud":{
+			"color":"#4b395b",
+			"index":239
+		},
+		"melon":{
+			"color":"#7b941e",
+			"index":28
+		},
+		"melon_stem":{
+			"color":"#3b3b3b",
+			"index":240
+		},
+		"mossy_cobblestone":{
+			"color":"#717965",
+			"index":225
+		},
+		"mossy_stone_bricks":{
+			"color":"#757a6d",
+			"index":225
+		},
+		"moss_block":{
+			"color":"#5a6f2e",
 			"index":229
 		},
-		"pink_stained_glass_pane":{
-			"color":"#F27FA5",
+		"mud":{
+			"color":"#3d3a3d",
+			"index":240
+		},
+		"muddy_mangrove_roots":{
+			"color":"#453b32",
+			"index":240
+		},
+		"mud_bricks":{
+			"color":"#8b6950",
+			"index":227
+		},
+		"mushroom_stem":{
+			"color":"#cbc5ba",
+			"index":13
+		},
+		"mycelium":{
+			"color":"#706366",
 			"index":229
 		},
-		"gold_block":{
-			"color":"#F6D03D",
-			"index":230
+		"netherite_block":{
+			"color":"#443f42",
+			"index":239
 		},
-		"yellow_shulker_box":{
-			"color":"#F8BC1D",
-			"index":231
+		"netherrack":{
+			"color":"#632828",
+			"index":240
 		},
-		"yellow_wool":{
-			"color":"#F8C527",
-			"index":232
+		"nether_bricks":{
+			"color":"#2e171b",
+			"index":248
 		},
-		"snow_block":{
-			"color":"#F9FEFE",
+		"nether_gold_ore":{
+			"color":"#7c4a2f",
 			"index":233
 		},
-		"white_stained_glass":{
-			"color":"#FFFFFF",
+		"nether_portal":{
+			"color":"#5d14c1",
+			"index":85
+		},
+		"nether_quartz_ore":{
+			"color":"#7d5550",
+			"index":231
+		},
+		"nether_sprouts":{
+			"color":"#07352e",
+			"index":243
+		},
+		"nether_wart_block":{
+			"color":"#740808",
+			"index":241
+		},
+		"note_block":{
+			"color":"#603e2b",
+			"index":238
+		},
+		"oak_leaves":{
+			"color":"#797979",
+			"index":169
+		},
+		"oak_log":{
+			"color":"#705834",
+			"index":232
+		},
+		"oak_planks":{
+			"color":"#a58551",
+			"index":28
+		},
+		"obsidian":{
+			"color":"#171023",
+			"index":255
+		},
+		"ochre_froglight":{
+			"color":"#f6ebbb",
+			"index":4
+		},
+		"orange_concrete":{
+			"color":"#e06101",
+			"index":210
+		},
+		"orange_concrete_powder":{
+			"color":"#e38422",
+			"index":205
+		},
+		"orange_glazed_terracotta":{
+			"color":"#bc997a",
+			"index":23
+		},
+		"orange_shulker_box":{
+			"color":"#eb6b0b",
+			"index":209
+		},
+		"orange_stained_glass":{
+			"color":"#d87f33",
+			"index":206
+		},
+		"orange_terracotta":{
+			"color":"#a25426",
+			"index":216
+		},
+		"orange_wool":{
+			"color":"#f17717",
+			"index":207
+		},
+		"oxidized_copper":{
+			"color":"#53a586",
+			"index":132
+		},
+		"oxidized_cut_copper":{
+			"color":"#519c81",
+			"index":27
+		},
+		"packed_ice":{
+			"color":"#8eb4fb",
+			"index":114
+		},
+		"packed_mud":{
+			"color":"#8f6b50",
+			"index":226
+		},
+		"pearlescent_froglight":{
+			"color":"#ece3e6",
+			"index":5
+		},
+		"pink_concrete":{
+			"color":"#d6658f",
+			"index":47
+		},
+		"pink_concrete_powder":{
+			"color":"#e59ab5",
+			"index":49
+		},
+		"pink_glazed_terracotta":{
+			"color":"#ec9eb7",
+			"index":48
+		},
+		"pink_shulker_box":{
+			"color":"#e77b9e",
+			"index":47
+		},
+		"pink_stained_glass":{
+			"color":"#f27fa5",
+			"index":47
+		},
+		"pink_terracotta":{
+			"color":"#a24e4f",
+			"index":40
+		},
+		"pink_wool":{
+			"color":"#ee8fad",
+			"index":48
+		},
+		"podzol":{
+			"color":"#5e4018",
+			"index":238
+		},
+		"polished_andesite":{
+			"color":"#868887",
+			"index":29
+		},
+		"polished_basalt":{
+			"color":"#5c5b5e",
+			"index":232
+		},
+		"polished_blackstone":{
+			"color":"#37333c",
+			"index":242
+		},
+		"polished_blackstone_bricks":{
+			"color":"#322e36",
+			"index":243
+		},
+		"polished_deepslate":{
+			"color":"#4b4b4c",
+			"index":236
+		},
+		"polished_diorite":{
+			"color":"#c4c4c5",
+			"index":14
+		},
+		"polished_granite":{
+			"color":"#9c6d5b",
+			"index":225
+		},
+		"powder_snow":{
+			"color":"#f8fdfd",
+			"index":0
+		},
+		"prismarine":{
+			"color":"#67a495",
+			"index":25
+		},
+		"prismarine_bricks":{
+			"color":"#66ada1",
+			"index":123
+		},
+		"pumpkin":{
+			"color":"#c7761c",
+			"index":206
+		},
+		"purple_concrete":{
+			"color":"#64209c",
+			"index":83
+		},
+		"purple_concrete_powder":{
+			"color":"#8438b2",
+			"index":76
+		},
+		"purple_glazed_terracotta":{
+			"color":"#7533a3",
+			"index":79
+		},
+		"purple_shulker_box":{
+			"color":"#68219d",
+			"index":82
+		},
+		"purple_stained_glass":{
+			"color":"#7f3fb2",
+			"index":76
+		},
+		"purple_terracotta":{
+			"color":"#764656",
 			"index":234
 		},
-		"white_stained_glass_pane":{
-			"color":"#FFFFFF",
-			"index":234
+		"purple_wool":{
+			"color":"#7b2bad",
+			"index":78
+		},
+		"purpur_block":{
+			"color":"#ab7faa",
+			"index":54
+		},
+		"purpur_pillar":{
+			"color":"#ad83ac",
+			"index":54
+		},
+		"quartz_block":{
+			"color":"#ece6df",
+			"index":5
+		},
+		"quartz_bricks":{
+			"color":"#ebe5de",
+			"index":5
+		},
+		"quartz_pillar":{
+			"color":"#ece7e0",
+			"index":5
+		},
+		"raw_copper_block":{
+			"color":"#a16d52",
+			"index":212
+		},
+		"raw_gold_block":{
+			"color":"#e0af3b",
+			"index":199
+		},
+		"raw_iron_block":{
+			"color":"#ab8c72",
+			"index":26
+		},
+		"redstone_block":{
+			"color":"#b41a06",
+			"index":223
+		},
+		"redstone_lamp":{
+			"color":"#a57b4f",
+			"index":206
+		},
+		"redstone_ore":{
+			"color":"#927474",
+			"index":224
+		},
+		"red_concrete":{
+			"color":"#8e2121",
+			"index":37
+		},
+		"red_concrete_powder":{
+			"color":"#a83633",
+			"index":37
+		},
+		"red_glazed_terracotta":{
+			"color":"#b8423a",
+			"index":36
+		},
+		"red_mushroom_block":{
+			"color":"#c93735",
+			"index":36
+		},
+		"red_nether_bricks":{
+			"color":"#490a0c",
+			"index":246
+		},
+		"red_sand":{
+			"color":"#bf6721",
+			"index":209
+		},
+		"red_sandstone":{
+			"color":"#bc641f",
+			"index":210
+		},
+		"red_shulker_box":{
+			"color":"#8d201e",
+			"index":36
+		},
+		"red_stained_glass":{
+			"color":"#993333",
+			"index":37
+		},
+		"red_terracotta":{
+			"color":"#8f3d2f",
+			"index":35
+		},
+		"red_wool":{
+			"color":"#a12823",
+			"index":36
+		},
+		"reinforced_deepslate":{
+			"color":"#737a6c",
+			"index":225
+		},
+		"respawn_anchor":{
+			"color":"#322050",
+			"index":255
+		},
+		"rooted_dirt":{
+			"color":"#936b51",
+			"index":226
+		},
+		"sand":{
+			"color":"#dbcfa4",
+			"index":11
+		},
+		"sandstone":{
+			"color":"#d9cc9e",
+			"index":12
+		},
+		"sculk":{
+			"color":"#0e1f25",
+			"index":248
+		},
+		"sculk_catalyst":{
+			"color":"#677469",
+			"index":227
+		},
+		"sculk_vein":{
+			"color":"#093038",
+			"index":244
+		},
+		"sea_lantern":{
+			"color":"#b6ccc4",
+			"index":13
+		},
+		"shroomlight":{
+			"color":"#f29b5b",
+			"index":205
+		},
+		"shulker_box":{
+			"color":"#8c618c",
+			"index":52
+		},
+		"slime_block":{
+			"color":"#70c05c",
+			"index":144
+		},
+		"smithing_table":{
+			"color":"#3d2729",
+			"index":244
+		},
+		"smoker":{
+			"color":"#6a6055",
+			"index":231
+		},
+		"smooth_basalt":{
+			"color":"#4b4a4f",
+			"index":236
+		},
+		"smooth_stone":{
+			"color":"#a0a0a0",
+			"index":23
+		},
+		"snow":{
+			"color":"#f9fefe",
+			"index":0
+		},
+		"soul_sand":{
+			"color":"#544035",
+			"index":238
+		},
+		"soul_soil":{
+			"color":"#4d3b30",
+			"index":239
+		},
+		"sponge":{
+			"color":"#c5c24b",
+			"index":194
+		},
+		"spruce_leaves":{
+			"color":"#676767",
+			"index":169
+		},
+		"spruce_log":{
+			"color":"#3c2712",
+			"index":244
+		},
+		"spruce_planks":{
+			"color":"#745631",
+			"index":232
+		},
+		"stone":{
+			"color":"#7e7e7e",
+			"index":31
+		},
+		"stone_bricks":{
+			"color":"#7c7b7c",
+			"index":224
+		},
+		"stripped_acacia_log":{
+			"color":"#af5d3c",
+			"index":216
+		},
+		"stripped_birch_log":{
+			"color":"#c5b077",
+			"index":198
+		},
+		"stripped_crimson_stem":{
+			"color":"#8a3a5a",
+			"index":46
+		},
+		"stripped_dark_oak_log":{
+			"color":"#493924",
+			"index":240
+		},
+		"stripped_jungle_log":{
+			"color":"#ac8555",
+			"index":204
+		},
+		"stripped_mangrove_log":{
+			"color":"#783730",
+			"index":236
+		},
+		"stripped_oak_log":{
+			"color":"#b29157",
+			"index":202
+		},
+		"stripped_spruce_log":{
+			"color":"#745a35",
+			"index":231
+		},
+		"stripped_warped_stem":{
+			"color":"#3a9794",
+			"index":28
+		},
+		"target":{
+			"color":"#e6c4bb",
+			"index":12
+		},
+		"terracotta":{
+			"color":"#985e44",
+			"index":218
+		},
+		"tinted_glass":{
+			"color":"#2d282f",
+			"index":245
+		},
+		"tnt":{
+			"color":"#bd7675",
+			"index":41
+		},
+		"tube_coral_block":{
+			"color":"#335ad1",
+			"index":105
+		},
+		"tuff":{
+			"color":"#6e6f69",
+			"index":227
+		},
+		"verdant_froglight":{
+			"color":"#d6ecd4",
+			"index":5
+		},
+		"warped_fungus":{
+			"color":"#32352c",
+			"index":242
+		},
+		"warped_nylium":{
+			"color":"#327568",
+			"index":229
+		},
+		"warped_planks":{
+			"color":"#2d6d67",
+			"index":230
+		},
+		"warped_stem":{
+			"color":"#3f4451",
+			"index":238
+		},
+		"warped_wart_block":{
+			"color":"#17797a",
+			"index":228
+		},
+		"water":{
+			"color":"#d2d2d2",
+			"index":105
+		},
+		"weathered_copper":{
+			"color":"#6d9a71",
+			"index":27
+		},
+		"weathered_cut_copper":{
+			"color":"#6f936e",
+			"index":28
+		},
+		"wet_sponge":{
+			"color":"#adb647",
+			"index":194
+		},
+		"white_concrete":{
+			"color":"#cfd5d6",
+			"index":10
+		},
+		"white_concrete_powder":{
+			"color":"#e2e4e4",
+			"index":6
+		},
+		"white_glazed_terracotta":{
+			"color":"#d1dad5",
+			"index":9
+		},
+		"white_shulker_box":{
+			"color":"#d8ddde",
+			"index":8
+		},
+		"white_stained_glass":{
+			"color":"#ffffff",
+			"index":0
+		},
+		"white_terracotta":{
+			"color":"#d2b2a1",
+			"index":17
+		},
+		"white_wool":{
+			"color":"#eaeded",
+			"index":4
+		},
+		"yellow_concrete":{
+			"color":"#f1af15",
+			"index":199
+		},
+		"yellow_concrete_powder":{
+			"color":"#e9c739",
+			"index":196
+		},
+		"yellow_glazed_terracotta":{
+			"color":"#edc56d",
+			"index":198
+		},
+		"yellow_shulker_box":{
+			"color":"#f8bd1e",
+			"index":198
+		},
+		"yellow_stained_glass":{
+			"color":"#e5e533",
+			"index":192
+		},
+		"yellow_terracotta":{
+			"color":"#ba8523",
+			"index":202
+		},
+		"yellow_wool":{
+			"color":"#f9c629",
+			"index":197
 		}
 	},
 	"ignored": {
