@@ -48,6 +48,7 @@ public class Witch extends JavaPlugin {
             }
         }
         Objects.requireNonNull(this.getCommand("voxelwitch")).setExecutor(new commandVoxelWitch()); //Register command
+        Objects.requireNonNull(this.getCommand("voxelwitch")).setTabCompleter(new commandVoxelWitch()); //Register autocomplete
         if (getServer().getPluginManager().getPlugin("WorldEdit") != null && getConfig().getBoolean("worldedit")) { // Check if WorldEdit is loaded and activated in config file
             getLogger().info("WorldEdit found.");
             WorldEditAPI = true;

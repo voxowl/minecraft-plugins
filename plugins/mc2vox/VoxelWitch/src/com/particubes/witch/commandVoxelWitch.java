@@ -3,15 +3,20 @@ package com.particubes.witch;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Player;
+import org.bukkit.util.StringUtil;
 import ovh.nemesis.cauldron.*;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
-public class commandVoxelWitch implements CommandExecutor {
+public class commandVoxelWitch implements CommandExecutor, TabCompleter {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
@@ -109,5 +114,24 @@ public class commandVoxelWitch implements CommandExecutor {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
+        final List<String> completions = new ArrayList<>(); // List of potential completions
+        if (args.length == 1) {
+            String[] commands = {"upload", "export", "reload"}; // list of 1st sub commands
+            for (String cmd : commands) { // For each cmd
+                if (sender.hasPermission("voxelwitch." + cmd))
+                    completions.add(cmd); // Add to potential completions if players has the permission
+            }
+            StringUtil.copyPartialMatches(args[0], Arrays.asList(commands), completions);
+            Collections.sort(completions);
+        } else if (args.length == 2) {
+            if (args[0].equalsIgnoreCase("upload") || args[0].equalsIgnoreCase("export")) {
+                completions.add("<filename>");
+            }
+        }
+        return completions;
     }
 }
