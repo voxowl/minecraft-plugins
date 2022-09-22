@@ -57,7 +57,7 @@ public class Witch extends JavaPlugin {
             getServer().getPluginManager().registerEvents(new interactEvent(), this);
             return;
         }
-        getLogger().info("VoxelWitch is now active ! Check out Particubes Voxel Game : https://particubes.com ! :)"); // Little ad because ... I love Particubes
+        getLogger().info("VoxelWitch is now active ! Check out Cubzh Voxel Game : https://cu.bzh ! :)");
     }
 
     @Override

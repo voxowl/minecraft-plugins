@@ -1,7 +1,7 @@
 main: com.particubes.witch.Witch
-version: beta-0.1
-author: Particubes
-website: "https://particubes.com"
+version: beta-0.3
+author: Cubzh
+website: "https://cu.bzh"
 authors:
   - IkutoPhoenix
 name: VoxelWitch
@@ -12,20 +12,20 @@ api-version: 1.13
 commands:
   voxelwitch:
     aliases: [vwitch,vw]
-    description: Voxel Witch main command
+    description: 'Voxel Witch main command'
 
 permissions:
   voxelwitch.cmd:
-    description: Command permission
+    description: 'Command permission'
     default: op
   voxelwitch.upload:
-    description: Upload vox permission
+    description: 'Upload vox permission'
     default: op
   voxelwitch.export:
-    description: Export to vox permission
+    description: 'Export to vox permission'
     default: op
   voxelwitch.wand:
-    description: Permission to use voxelwitch's wand
+    description: 'Permission to use voxelwitch''s wand'
     default: op
   voxelwitch.*:
     description: 'Give all plugin''s permissions'
